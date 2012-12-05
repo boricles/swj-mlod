@@ -1,0 +1,111 @@
+%%
+%%Richard Littauer, Didier Cherix and Steven Moran
+%%http://mlode.nlp2rdf.org/sparql
+%%
+%%
+%%Using the SPARQL endpoint (above), this team set itself the goal of devising SPARQL queries to identify all resources in the LLOD that have data with regard to a given ISO 639-3 unique language name identifier.
+%
+%%http://mlode.nlp2rdf.org/sparql?default-graph-uri=&query=prefix+wals%3A+%3Chttp%3A%2F%2Fwals.info%2Flanguage%2F%3E%0D%0Aselect+distinct+%3Frelation+where+%7B%0D%0Awals%3Achr+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Frelation%3E+%3Frelation+.%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on
+%
+%And the other ones are:
+%
+%1. goto: http://mlode.nlp2rdf.org/sparql
+%
+%2. remove the default text in "Default Data Set Name (Graph IRI)"
+%
+%3. paste this query:
+%
+%prefix wals: <http://wals.info/language/>
+%select distinct  ?label ?descr ?ref ?area ?lat ?long ?genus
+%where
+%{
+%?s <http://purl.org/dc/terms/subject> wals:chr .
+%?s <http://wals.info/vocabulary/hasValue> ?value .
+%?value <http://purl.org/dc/terms/description> ?descr .
+%wals:chr <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat .
+%wals:chr <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long .
+%
+%wals:chr ?feature ?datapoint .
+%wals:chr rdfs:label ?label .
+%?datapoint <http://purl.org/dc/terms/references> ?ref .
+%
+%?feature <http://purl.org/dc/terms/isPartOf> ?chapter .
+%?chapter <http://wals.info/vocabulary/chapterArea> ?area .
+%wals:chr <http://wals.info/vocabulary/hasGenus> ?genus.
+%wals:chr <http://wals.info/vocabulary/altName> ?name .
+%}
+%
+%4. hit "Run query"
+%
+%And this query:
+%
+%run steps 1, 2 and for 3 paste this into the text box:
+%
+%prefix wals: <http://wals.info/language/>
+%select distinct ?relation where {
+%wals:chr <http://purl.org/dc/terms/relation> ?relation .
+%}
+%
+%and click on "Run query"
+%
+%The second query shows us every resource that contains information
+%about a given ISO 639-3 code in the LLOD cloud. Could you also get the
+%same type of thing via querying via a WALS language code, getting the
+%its ISO code and then running the query above.
+%%%%NEED TO DO THIS. _RICHARD
+%
+%For the first query, you simply return all and any information in the
+%WALS given a WALS language code (wals:chr in this example). Correct?
+
+
+%First query URL:
+%
+%http://mlode.nlp2rdf.org/sparql?default-graph-uri=&query=prefix+wals%3A+%3Chttp%3A%2F%2Fwals.info%2Flanguage%2F%3E%0D%0Aselect+distinct++%3Flabel+%3Fdescr+%3Fref+%3Farea+%3Flat+%3Flong+%3Fgenus%0D%0Awhere%0D%0A%7B%0D%0A%3Fs+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fsubject%3E+wals%3Achr+.%0D%0A%3Fs+%3Chttp%3A%2F%2Fwals.info%2Fvocabulary%2FhasValue%3E+%3Fvalue+.%0D%0A%3Fvalue+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fdescription%3E+%3Fdescr+.%0D%0Awals%3Achr+%3Chttp%3A%2F%2Fwww.w3.org%2F2003%2F01%2Fgeo%2Fwgs84_pos%23lat%3E+%3Flat+.%0D%0Awals%3Achr+%3Chttp%3A%2F%2Fwww.w3.org%2F2003%2F01%2Fgeo%2Fwgs84_pos%23long%3E+%3Flong+.%0D%0A%0D%0Awals%3Achr+%3Ffeature+%3Fdatapoint+.%0D%0Awals%3Achr+rdfs%3Alabel+%3Flabel+.%0D%0A%3Fdatapoint+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Freferences%3E+%3Fref+.%0D%0A%0D%0A%3Ffeature+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2FisPartOf%3E+%3Fchapter+.%0D%0A%3Fchapter+%3Chttp%3A%2F%2Fwals.info%2Fvocabulary%2FchapterArea%3E+%3Farea+.%0D%0Awals%3Achr+%3Chttp%3A%2F%2Fwals.info%2Fvocabulary%2FhasGenus%3E+%3Fgenus.%0D%0Awals%3Achr+%3Chttp%3A%2F%2Fwals.info%2Fvocabulary%2FaltName%3E+%3Fname+.%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on
+%
+%Second query URL:
+%
+%http://mlode.nlp2rdf.org/sparql?default-graph-uri=&query=prefix+wals%3A+%3Chttp%3A%2F%2Fwals.info%2Flanguage%2F%3E%0D%0Aselect+distinct+%3Frelation+where+%7B%0D%0Awals%3Achr+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Frelation%3E+%3Frelation+.%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on
+
+%%%%%%%%%%%%%%%%%%
+
+%A link to the endpoint with a query for Chrua, a Vietnamese language:
+%
+%http://mlode-sparql.nlp2rdf.org/sparql?default-graph-uri=&query=prefix+wals%3A+%3Chttp%3A%2F%2Fwals.info%2Flanguage%2F%3E%0D%0Aselect+distinct+%3Frelation+where+%7B%0D%0Awals%3Achr+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Frelation%3E+%3Frelation+.%0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on
+%
+%A SPARQL query for all of the WALS information for a given ISO 639-3:
+%
+%prefix wals: <http://wals.info/language/>
+%
+%select distinct  ?label ?descr ?ref ?area ?lat ?long ?genus where
+%{
+%?s <http://purl.org/dc/terms/subject> wals:chr .
+%?s <http://wals.info/vocabulary/hasValue> ?value .
+%?value <http://purl.org/dc/terms/description> ?descr .
+%wals:chr <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ?lat .
+%wals:chr <http://www.w3.org/2003/01/geo/wgs84_pos#long> ?long .
+%
+%wals:chr ?feature ?datapoint .
+%wals:chr rdfs:label ?label .
+%?datapoint <http://purl.org/dc/terms/references> ?ref .
+%
+%?feature <http://purl.org/dc/terms/isPartOf> ?chapter .
+%?chapter <http://wals.info/vocabulary/chapterArea> ?area .
+%wals:chr <http://wals.info/vocabulary/hasGenus> ?genus.
+%wals:chr <http://wals.info/vocabulary/altName> ?name .
+%}
+%
+%A SPARQL query to list all of the resources in the LLOD for the
+%specific ISO 639-3 code:
+%
+%prefix wals: <http://wals.info/language/>
+%select distinct ?relation where {
+%wals:chr <http://purl.org/dc/terms/relation> ?relation .
+%}
+%
+%In order to access this code, one needs to uncheck the 'default data
+%set' by removing the link:
+%http://mlode.nlp2rdf.org
+%
+%From the first entry box at the endpoint:
+%
+%http://mlode-sparql.nlp2rdf.org/sparql

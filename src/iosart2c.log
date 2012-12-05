@@ -1,0 +1,523 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.12.15)  5 DEC 2012 15:22
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**iosart2c.tex
+(./iosart2c.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, ar
+abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
+h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
+greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, ku
+rmanji, latin, latvian, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, po
+lish, portuguese, romanian, russian, sanskrit, serbian, slovak, slovenian, span
+ish, swedish, turkish, ukenglish, ukrainian, uppersorbian, welsh, loaded.
+(./iosart2c.cls
+Document Class: iosart2c 2010/10/28 v1.0, IOS Press
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
+\mathindent=\dimen102
+)
+Ten point
+\c@section=\count79
+\c@subsection=\count80
+\c@subsubsection=\count81
+\c@paragraph=\count82
+\c@subparagraph=\count83
+\c@figure=\count84
+\c@table=\count85
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\tablewidth=\dimen103
+\saved@tablewidth=\dimen104
+\c@algorithm=\count86
+\t@glob@notes=\toks14
+\t@loc@notes=\toks15
+\note@cnt=\count87
+\c@author=\count88
+\n@author=\count89
+\c@address=\count90
+\sv@mathsurround=\dimen105
+\sv@hyphenpenalty=\count91
+\prev@elem=\count92
+\cur@elem=\count93
+\fm@box=\box26
+\fm@size=\dimen106
+\t@abstract=\box27
+\t@keywords=\box28
+\a@title@skip=\dimen107
+\b@section@skip=\skip43
+\b@pretitle@skip=\skip44
+\t@xtheight=\dimen108
+\c@titlefootnote=\count94
+\@@topskip=\dimen109
+\b@author@skip=\dimen110
+\dp@t@keywords=\dimen111
+\@pubyear=\count95
+\@copyear=\count96
+(./flushend.sty
+Package: flushend 2002/12/13
+\@aaa=\box29
+\@ccc=\box30
+\lastskip@a=\skip45
+\lastskip@b=\skip46
+\lastskip@d=\skip47
+\lastbox@a=\box31
+\@viper=\box32
+\hold@viper=\box33
+\atColsBreak=\toks16
+\@extra@skip=\dimen112
+\@nd@page@rule=\dimen113
+))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip48
+\bibsep=\skip49
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count97
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen114
+))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen115
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count98
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count99
+\leftroot@=\count100
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count101
+\DOTSCASE@=\count102
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box34
+\strutbox@=\box35
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count103
+\c@MaxMatrixCols=\count104
+\dotsspace@=\muskip10
+\c@parentequation=\count105
+\dspbrk@lvl=\count106
+\tag@help=\toks18
+\row@=\count107
+\column@=\count108
+\maxfields@=\count109
+\andhelp@=\toks19
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks20
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen123
+\extrarowheight=\dimen124
+\NC@list=\toks22
+\extratabsurround=\skip53
+\backup@length=\skip54
+))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count110
+))
+(./iosart2c.aux)
+\openout1 = `iosart2c.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 31.
+ (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+) (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count111
+\scratchdimen=\dimen125
+\scratchbox=\box36
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen126
+\MPnumerator=\count115
+\everyMPtoPDFconversion=\toks24
+)
+\c@sv@footnote=\count116
+\c@sv@footnote=\count117
+ (./introduction.tex) (./relatedwork.tex) (./querying.tex) (./langeo.tex)
+(./conclusions.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (38.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 64.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (37.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 65.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (36.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 66.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (35.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 67.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (34.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 68.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (33.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 69.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (32.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 70.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (31.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 71.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (30.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 72.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (29.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 73.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (28.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 74.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (27.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 75.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (26.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 76.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (25.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 77.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (24.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 78.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (23.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 79.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (22.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 80.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (21.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 81.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (20.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 82.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (19.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 83.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (18.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 84.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (17.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 85.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (16.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 86.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (15.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 87.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (14.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 88.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (13.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 89.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (12.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 90.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (11.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 91.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (10.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 92.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (9.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 93.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (8.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 94.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (7.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 95.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (6.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 96.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (5.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 97.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (4.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 98.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (3.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 99.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (2.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 100.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (1.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 101.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (0.65994pt too high) has occurred while \output is active []
+
+Extra height:10.0pt when 102.05997pt
+Extra height:0.0pt when 103.05997pt
+(2)Left:103.05997pt Right:10.0pt Output:103.05997pt
+- LAST -
+Extra skip:0.0pt
+Left:103.05997pt
+Right:10.0pt
+Output:103.05997pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 97.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 97.
+ [1{/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] (./iosart2c.aux) ) 
+Here is how much of TeX's memory you used:
+ 2357 strings out of 493848
+ 27253 string characters out of 3149206
+ 80989 words of memory out of 3000000
+ 5621 multiletter control sequences out of 15000+200000
+ 35392 words of font info for 58 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 30i,10n,25p,1200b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r
+.enc}</usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/local/texlive/2009/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/tex
+live/2009/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/
+texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on iosart2c.pdf (1 page, 80549 bytes).
+PDF statistics:
+ 35 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
