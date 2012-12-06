@@ -1,0 +1,11 @@
+The representation formalisms and technologies that make up the Semantic Web can be used for language databases to enable interoperability on a wide scale. The Linked (Open) Data paradigm \citep{bernersLee2006_linkeddata} sets out four rules for representation of web resources: 
+\begin{enumerate}\item Referred entities should be designated by using URIs,
+\item these URIs should be resolvable over HTTP,
+\item data should be represented by means of specific W3C standards (such as RDF),
+\item and a resource should include links to other resources. \end{enumerate}
+These rules facilitate information integration, and thus, interoperability, in that they require that entities can be addressed in a globally unambiguous way (1), that they can be accessed (2) and interpreted (3), and that entities that are associated on a conceptual level are also physically associated with each other (4). 
+
+Following these rules, the Resource Description Framework (RDF) was laid down as a language meant to provide metadata for various resources. In RDF, information is expressed in triples (property, subject, and object), and RDF collections of data are represented by Uniform Resource Identifiers, which are globally unambiguous in the web. This way, resources can link to each other, and an unambiguous, coherent ontology can be more easily created. SPARQL \cite{prud2008sparql}
+is a standardised query language for RDF data. Inspired by SQL, SPARQL also uses a triple notation similar to RDF. It does not only support querying data from a single database accessible over HTTP - known as SPARQL endpoints - but also can query multiple databases from a single endpoint. It is this feature which allows the use of massive ontologies to be made out of several databases, creating a cloud of interoperable resources. RDF and SPARQL together are thus the main constituents of the Semantic Web. 
+
+% \cite{PEOPLES WEB} Much of this has been lifted. Should be ok, right? Will cite here. 

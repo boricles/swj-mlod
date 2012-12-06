@@ -1,0 +1,4 @@
+prefix wals: <http://wals.info/language/>
+select distinct ?relation where {
+wals:chr <http://purl.org/dc/terms/relation> ?relation .
+}
