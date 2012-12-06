@@ -1,0 +1,93 @@
+% Journal:
+%   Journal of Ambient Intelligence and Smart Environments (JAISE), IOS Press
+%   Web Intelligence and Agent Systems: An International Journal (wias)
+%   Semantic Web: Interoperability, Usability, Applicability (SW)
+% Latex 2e
+% Test file iosart2c.tex
+
+%[seceqn,secfloat,secthm,crcready]
+
+% options: wias, jaise, sw
+\documentclass{iosart2c}
+
+\usepackage{listings}
+
+\usepackage[T1]{fontenc}
+\usepackage{times}%
+
+\usepackage{natbib}
+%\usepackage[dvips]{hyperref}
+\usepackage{amsmath}
+\usepackage{dcolumn}
+%\usepackage{endnotes}
+\usepackage{graphics, url}
+
+
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+
+
+\firstpage{1} \lastpage{5} \volume{1} \pubyear{2009}
+
+
+\begin{document}
+\begin{frontmatter}                           % The preamble begins here.
+
+%\pretitle{Pretitle}
+\title{Using the LLOD Cloud for Querying Linguistic Resources%\thanks{Footnote in title.}
+} % CHANGE AS SUITED - RL.
+
+\runningtitle{Using the LLOD Cloud for Querying Linguistic Resources}
+%\subtitle{Subtitle}
+
+%\review{Name Surname, University, Country}{Name Surname, University, Country}{Name Surname, University, Country}
+
+\author[A,B]{\fnms{Richard} \snm{Littauer}},
+\author[C]{\fnms{Steven} \snm{Moran}},
+%\thanks{Corresponding author. E-mail: editorial@iospress.nl.}%\thanks{Do not use capitals for the author's surname.}
+and
+\author[D]{\fnms{Boris} \snm{Villazon-Terrazas}}
+\runningauthor{Littauer, Moran and Villazon-Terrazas}
+
+%\address[A]{Journal Production Department, IOS Press, Nieuwe Hemweg 6b, 1013 BG, Amsterdam,\\ The Netherlands\\ E-mail: first@somewhere.com}
+%\address[B]{Department first, then University or Company name, Insert a complete correspondence (mailing) address, Abbreviate US states, Include country\\ E-mail: \{second,third\}@somewhere.com}
+
+\address[A]{Department of Intelligent Computer Systems, University of Malta, Msida, MSD2080, Malta}
+\address[B]{Computational Linguistics Department, Saarland University, Saarbr\"ucken, 66121, Germany\\  E-mail: littauer@coli.uni-saarland.de}
+\address[C]{Research Unit Quantitative Language Comparison, Ludwig Maximilian University, Geschwister Scholl Platz 1, D-80539 Munich, Germany\\ 
+E-mail: bambooforest@gmail.com} %Steve? Probably not the right email. 
+\address[D]{Intelligent Software Components, iSOCO, S.A., Av. del Partenon 16-18, Madrid, Spain\\
+E-mail: bvillazon@isoco.com}
+
+\begin{abstract}
+The Semantic Web offers a unique opportunity to query for large amount of data which would otherwise exist only in fragmented databases. Recently, the Open Linguistics Working Group has been developing a sub cloud of ontologies which conform to the Linked Open Data paradigm with the intent to enable computational linguists to utilise the Semantic Web. Here, we present a SPARQL endpoint for the Linguistics Linked Open Data cloud. We showcase how to query for language resources within the cloud, with example query results for language resources from multiple databases, which previously would have had to have been collected individually and arduously. It is hoped that the work presented here will expedite use of the Linguistics Linked Open Data cloud by researchers. 
+
+%122 words at present.
+
+%The abstract should be clear, descriptive, self-explanatory and no longer than 200 words. It should also be suitable for publication in abstracting services. Do not include references or formulae in the abstract.
+\end{abstract}
+
+\begin{keyword}
+Semantic Web\sep Linked Data\sep LLOD\sep Linguistics\sep Typology\sep Language Resources
+%Keyword one\sep keyword two\sep keyword three\sep keyword four\sep keyword five
+\end{keyword}
+\end{frontmatter}
+
+\section{Introduction}
+\input{lr_introduction}
+
+\section{The Semantic Web}
+\input{lr_semweb}
+
+\section{The LLOD cloud}
+\input{lr_llod}
+
+\section{Querying the LLOD for language resources}
+\input{lr_querying}
+
+\section{Conclusions}
+\input{lr_conclusions}
+
+\bibliographystyle{IEEEtran} %Probably not the style we should use???
+\bibliography{bib.bib}
+
+\end{document}
