@@ -1,11 +1,10 @@
-The representation formalisms and technologies that make up the Semantic Web can be used to enable interoperability for language databases on a wide scale. The Linked (Open) Data paradigm \citep{bernersLee2006_linkeddata} sets out four rules for representation of web resources: 
-\begin{enumerate}\item Referred entities should be designated by using Uniform Resource Identifiers (URIs),
+The representation formalisms and technologies that make up the Semantic Web can be used to enable interoperability for language databases on a wide scale. The purpose of Linked Data is to enable structured data to be shared on the Web. The Linked Open Data paradigm sets out four rules for representation of web resources \citep{bernersLee2006_linkeddata}: 
+
+\begin{enumerate}
+\item referred entities should be designated by using Uniform Resource Identifiers (URIs),
 \item these URIS should be resolvable over HTTP,
 \item data should be represented by means of specific W3C standards (such as RDF),
-\item and a resource should include links to other resources. \end{enumerate}
-These rules facilitate information integration, and thus, interoperability, in that they require that entities can be addressed in a globally unambiguous way (1), that they can be accessed (2) and interpreted (3), and that entities that are associated on a conceptual level are also physically associated with each other (4). \cite{ChiarcosLOD} 
+\item and a resource should include links to other resources. 
+\end{enumerate}
 
-
-Following these rules, the Resource Description Framework (RDF) was laid down as a language meant to provide metadata for various resources. In RDF, information is expressed in triples (property, subject, and object), and RDF collections of data are represented by URIs, which are globally unambiguous in the web. This way, resources can link to each other, and an valid, coherent ontology can be more easily created. 
-
-SPARQL \cite{prud2008sparql} is a standardised query language for RDF data. Inspired by SQL, SPARQL also uses a triple notation similar to RDF. It not only supports querying data from a single database accessible over HTTP - known as SPARQL endpoints - but also can query multiple databases from a single endpoint. It is this feature which allows the use of massive ontologies to be made out of several databases, creating a cloud of interoperable resources. RDF and SPARQL together are thus the main constituents of the Semantic Web. 
+These rules facilitate data interoperability in that they require that entities are addressed in a globally unambiguous way (1), that they can be accessed (2) and interpreted (3), and that entities that are associated on a conceptual level are also physically associated with each other (4) \cite{ChiarcosLOD}. An essential part of Linked Data is the Resource Description Framework (RDF), a language that was developed to represent information, such as metadata, about resources on the Web. In an RDF graph, information is expressed with subject-predicate-object triples. Each component of the triple is encoded by a URI, making it globally unambiguous on the Web. These resources can also link to other resources in a standardized way, so that various RDF graphs can share links and be combined into larger graphs. SPARQL is the query language for RDF data and it also consists of triple patterns, with additional optional patterns and conjunctions, disjunctions, etc. \cite{prud2008sparql}. One tool that instantiates the SPARQL protocol is the SPARQL endpoint. A SPARQL endpoint is a service that  supports querying RDF data from a single graph over HTTP and it may also be used to query multiple distributed RDF graphs via endpoints. Thus attain federated query across multiple resources.

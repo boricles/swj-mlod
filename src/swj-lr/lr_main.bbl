@@ -23,17 +23,15 @@ C.~Chiarcos, S.~Moran, P.~N. Mendes, S.~Nordhoff, and R.~Littauer.
 \newblock In I.~Gurevych and J.~Kim, editors, {\em The People's Web Meets NLP:
   Collaboratively Constructed Language Resources}. Springer, to appear.
 
+\bibitem{farrar2003linguistic}
+S.~Farrar and D.~T. Langendoen.
+\newblock {A Linguistic Ontology for the Semantic Web}.
+\newblock {\em GLOT International}, 7:97--100, 2003.
+
 \bibitem{Haspelmath_etal2008}
 M.~Haspelmath, M.~Dryer, D.~Gil, and B.~Comrie, editors.
 \newblock {\em The {World Atlas of Language Structures} Online}.
 \newblock Max Planck Digital Library, Munich, 2008.
-
-\bibitem{ide-pustejovsky2010-interoperability}
-N.~Ide and J.~Pustejovsky.
-\newblock What does interoperability mean, anyway? {Toward} an operational
-  definition of interoperability.
-\newblock In {\em Proc. Second International Conference on Global
-  Interoperability for Language Resources (ICGL 2010)}, Hong Kong, China, 2010.
 
 \bibitem{prud2008sparql}
 E.~Prud'Hommeaux and A.~Seaborne.

@@ -34,15 +34,15 @@
 \end{tabular}
 \end{table*}
 
-A SPARQL endpoint for the LLOD was set up as part of the MLODE conference, and there are plans to see that it remains in public use. This endpoint can be found at: \url{http://mlode-sparql.nlp2rdf.org/sparql}. 
+A SPARQL endpoint for the LLOD was set up as part of the MLODE conference. This endpoint is located at: \url{http://mlode-sparql.nlp2rdf.org/sparql}. 
 
-In order to test the use of this endpoint, and in order to showcase how the LLOD can be queried and used in a non-theoretical capacity, we wrote the two queries presented below. These are by no means the only queries possible on the endpoint, nor do they represent the full nature of the LLOD - rather, these were judged to be of the most interest to linguistic researchers using online databases already. 
+In order to test the use of this endpoint, and in order to showcase how the LLOD can be queried and used in a non-theoretical capacity, we present the two queries below. These are by no means the only queries possible on the endpoint, nor do they represent the full nature of the LLOD -- rather, these were judged to be of the most interest to linguistic researchers using online databases already. 
 
-Using the SPARQL endpoint described above, we set ourselves the goal of devising SPARQL queries to identify all resources in the LLOD that have data with regard to a given ISO 639-3 unique language name identifier. ISO 639-3 identifiers are maintained by the Summer Institute of Linguistics\footnote{http://www.sil.org/iso639-3/}, and consist of three-letter codes which refer to one of the existing 7000+ extant languages in the database.\footnote{A full list can be found here: \url{http://www.sil.org/iso639-3/download.asp}} This query can be seen in Table 1. The three-letter language code used is \url{chr}, the language code for Chrau, a Vietnamese language. This code was chosen at random. 
+Using the SPARQL endpoint, we set ourselves the goal of devising SPARQL queries to identify all resources in the LLOD cloud that have data with regard to a specific ISO 639-3 unique language name identifier. ISO 639-3 identifiers are maintained by the Summer Institute of Linguistics\footnote{http://www.sil.org/iso639-3/} and consist of three-letter codes that refer to one of the existing 7000+ extant languages in the Ethnologue  database.\footnote{A full list can be found here: \url{http://www.sil.org/iso639-3/download.asp}} This query is given in Table 1. The three-letter language code used is [crw], the language code for Chrau, a Vietnamese language spoken in Southeast Asia. 
 
-To use the endpoint, go to the link above. Remove the `Default Data Set Name (Graph IRI)' in the top entry box by deleting \url{http://mlode.nlp2rd.org}, so that the box is empty. Write your query into the `Query Text' box, and press `Run Query.' The query will then load. The hyperlink of the loaded query can be used as a way to refer to that result without needing to re-enter the query each iteration. The output of this query, as of the time of writing, can be seen in Table 2. 
+To use the endpoint, go to the link above and paste the query into the `Query Text' box, and press `Run Query'.\footnote{Uncheck the `Default Data Set Name (Graph IRI)' in the top entry box by deleting \url{http://mlode.nlp2rd.org}, so that the box is empty.} The query will then fire. The hyperlink of the loaded query can be used as a way to refer to that result without needing to re-enter the query for each iteration. The output of the query, at the time of writing, is given in Table 2. There are several resources that contain a variety of information on the Chrau language, including details about its geographical location (where speakers of Chrau live), its population, language family information, the system used to write the language, etc. As is clear, there are several datasets already available in the LLOD clod that can be used to gather more, related information about specific information.
 
-As is clear, there are several databases already available in the LLOD which can be used to gather more, related information. Notable among the available databases are: Multitree, which shows phylogenic relationships between languages; glottolog, which is a database of reference information for languages; ODIN, a database of language corpora automatically extracted from research papers around the web; Wikipedia; and LinguistList, which lists current researchers and reference works for each language. 
+% Notable among the available databases are: Multitree, which shows phylogenic relationships between languages; glottolog, which is a database of reference information for languages; ODIN, a database of language corpora automatically extracted from research papers around the web; Wikipedia; and LinguistList, which lists current researchers and reference works for each language. 
 
 \begin{table*}
 \caption{Result for query for resources with a given ISO 639-3 code} \label{t1}
@@ -66,7 +66,7 @@ As is clear, there are several databases already available in the LLOD which can
 
 %http://mlode.nlp2rdf.org/sparql?default-graph-uri=&query=prefix+wals%3A+%3Chttp%3A%2F2Fwals.info%2Flanguage%2F%3E%0D%0Aselect+distinct+%3Frelation+where+%7B%0D0Awals%3Achr+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Frelation%3E+%3Frelation+.0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on
 
-The next query retrieves all of the information in WALS for a given ISO 639-3 code. WALS also uses their own language identifier, along with the ISO 639-3 code. For this reason, researchers often need to create wrappers to mine data bot from the Ethnologue, SIL, or Linguist databases and from WALS. It is hypothetically possible to create a query that would run using the WALS language code, find the ISO code, and then retrieve all information from other databases for that code. The use of this sort of query cannot be understated in the amount of time and effort saved. The query gathering WALS data can be seen in Table 3. 
+Our second example query retrieves all of the information in WALS for a specific ISO 639-3 code. Along side ISO 639-3 codes, WALS also defines its own language name identifiers because its compilers have a different idea of what the set of mutually unintelligible language varieties are. For this reason, researchers often need to create wrappers to mine data several resources, such as the Ethnologue (the originator of language code), SIL (the gatekeeper of the current ISO 639-3 codes), and typology-specific databases and like WALS. It is of course possible to formulate a query that runs using the WALS language code, then finds the ISO 639-3 code, and  retrieves all the information from other databases related to that code. The use of this sort of query for mining information about languages, which have various alternative names and even different `standard' codes identifying those name, cannot be understated due to the amount of time and effort it saves the researcher, especially from search multiple different resources. A query that gathers WALS data is given in Table 3. The results of the query are given in Table 4. Here we have limited the results to 5 entries.\footnote{This can be done by appending LIMIT 5 after the closing bracket at the end of the code snippet.}
 
 \begin{table*}
 \caption{Query for all information for a given ISO 639-3 code on WALS} \label{t1}
@@ -76,8 +76,6 @@ The next query retrieves all of the information in WALS for a given ISO 639-3 co
 \hline
 \end{tabular}
 \end{table*}
-
-The results of the query in Table 3 can be seen in Table 4. Here, we have limited the results to 5 entries. (This can be done by appending LIMIT 5 after the closing bracket at the end of the code snippet.) 
 
 
 \begin{table*}
