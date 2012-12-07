@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: geospatial_main.aux
+The style file: abbrv.bst
+Database file #1: bib.bib.bib
+You've used 12 entries,
+            2118 wiz_defined-function locations,
+            586 strings with 6731 characters,
+and the built_in function-call counts, 4470 in all, are:
+= -- 401
+> -- 281
+< -- 4
++ -- 109
+- -- 95
+* -- 325
+:= -- 761
+add.period$ -- 40
+call.type$ -- 12
+change.case$ -- 79
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 167
+empty$ -- 340
+format.name$ -- 95
+if$ -- 936
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 10
+newline$ -- 63
+num.names$ -- 31
+pop$ -- 111
+preamble$ -- 1
+purify$ -- 68
+quote$ -- 0
+skip$ -- 98
+stack$ -- 0
+substring$ -- 151
+swap$ -- 33
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 46
+warning$ -- 0
+while$ -- 36
+width$ -- 14
+write$ -- 135

@@ -42,26 +42,24 @@
 
 %\review{Name Surname, University, Country}{Name Surname, University, Country}{Name Surname, University, Country}
 
-
-\author[A]{\fnms{Steven} \snm{Moran}%\thanks{Corresponding author. E-mail: editorial@iospress.nl.}%\thanks{Do not use capitals for the author's surname.}
-},
-\author[B,C]{\fnms{Richard} \snm{Littauer}}
+\author[A,B]{\fnms{Richard} \snm{Littauer}},
+\author[C]{\fnms{Boris} \snm{Villazon-Terrazas}}
 and
-\author[D]{\fnms{Boris} \snm{Villazon-Terrazas}}
-\runningauthor{Moran, Littauer and Villazon-Terrazas}
-\address[A]{Research Unit Quantitative Language Comparison, Ludwig Maximilian University, Geschwister Scholl Platz 1, D-80539 Munich, Germany\\ 
-E-mail: bambooforest@gmail.com} %Steve? Probably not the right email. 
-
+\author[D]{\fnms{Steven} \snm{Moran}}
+\runningauthor{Littauer, Villazon-Terrazas and Moran}
 
 %\address[A]{Journal Production Department, IOS Press, Nieuwe Hemweg 6b, 1013 BG, Amsterdam,\\ The Netherlands\\ E-mail: first@somewhere.com}
 %\address[B]{Department first, then University or Company name, Insert a complete correspondence (mailing) address, Abbreviate US states, Include country\\ E-mail: \{second,third\}@somewhere.com}
-\address[B]{Department of Intelligent Computer Systems, University of Malta, Msida, MSD2080, Malta}
-\address[C]{Computational Linguistics Department, Saarland University, Saarbr\"ucken, 66121, Germany\\  E-mail: littauer@coli.uni-saarland.de}
-\address[D]{Intelligent Software Components, iSOCO, S.A., Av. del Partenon 16-18, Madrid, Spain\\
+\address[A]{Department of Intelligent Computer Systems, University of Malta, Msida, MSD2080, Malta}
+\address[B]{Computational Linguistics Department, Saarland University, Saarbr\"ucken, 66121, Germany\\  E-mail: littauer@coli.uni-saarland.de}
+\address[C]{Intelligent Software Components, iSOCO, S.A., Av. del Partenon 16-18, Madrid, Spain\\
 E-mail: bvillazon@isoco.com}
+\address[D]{Research Unit Quantitative Language Comparison, Ludwig Maximilian University, Geschwister Scholl Platz 1, D-80539 Munich, Germany\\ 
+E-mail: bambooforest@gmail.com} %Steve? Probably not the right email. 
+
 
 \begin{abstract}
-The Linguistics Linked Open Data cloud (LLOD), created and maintained by the Open Linguistics Working Group, is a (sub-)cloud of the LOD cloud, conforming to the Linked Open Data paradigm. The potential of a very large, interlinking, interoperable sub-cloud for linguistics research is great; however, early adopters may be hesitant to upload their datasets or use the cloud, due to a large learning curve or a lack of obvious uses. Here, we present an iterative and incremental Linguistics Linked Data Life Cycle that covers linguistic data resources, i.e., spreadsheets, that are enhanced with geospatial information. We use only freely accessible technologies in the Semantic Web framework, as well as a dataset of lexical and geospatial information of Dogon languages in West Africa. We also present a visualisation of language data from the World Atlas of Language Structures available as LD dataset within the LLOD. By doing so, we shed light upon the possibilities of the Semantic Web, and in particular the LLOD, for potential researchers in the digital humanities and computational sciences. %144 words
+The Linguistics Linked Open Data cloud (LLOD), created and maintained by the Open Linguistics Working Group, is a (sub-)cloud of the LOD cloud, conforming to the Linked Open Data paradigm. The potential of a very large, interlinking, interoperable sub-cloud for linguistics research is great; however, early adopters may be hesitant to upload their datasets or use the cloud, due to a large learning curve or a lack of obvious uses. Here, we present an iterative and incremental Linguistics Linked Data Life Cycle that covers linguistic data resources, i.e., spreadsheets, that are enhanced with geospatial information. We use only freely accessible technologies in the Semantic Web framework, as well as a dataset of lexical and geospatial information of Dogon languages in West Africa. We also present a visualisation of language data from the World Atlas of Language Structures available as dataset within the LLOD. By doing so, we shed light upon the possibilities of the Semantic Web, and in particular the LLOD, for potential researchers in the digital humanities and computational sciences. %144 words
 %The abstract should be clear, descriptive, self-explanatory and no longer than 200 words. It should alsobe suitable for publication in abstracting services. Do not include references or formulae in the abstract.
 \end{abstract}
 
@@ -74,7 +72,7 @@ Semantic Web\sep Linked Data\sep LLOD\sep Linguistics\sep Typology\sep Language 
 
 %http://www.slideshare.net/boricles/linguistic-resources-enhanced-with-geospatial-information
 
-\section{Introduction}
+\section{Introduction}\label{sec:intro}
 \input{gs_intro}
 
 \section{Related Work}
@@ -83,13 +81,13 @@ Semantic Web\sep Linked Data\sep LLOD\sep Linguistics\sep Typology\sep Language 
 \section{LLD Life Cycle}
 \input{gs_langeo}
 
-\section{Querying to Geospatial Information}
+\section{Querying to Geospatial Information}\label{sec:query}
 \input{gs_querying}
 
 \section{Conclusions}
 \input{gs_conc}
 
-\bibliographystyle{IEEEtran}
+\bibliographystyle{abbrv}
 \bibliography{bib.bib}
 
 \end{document}

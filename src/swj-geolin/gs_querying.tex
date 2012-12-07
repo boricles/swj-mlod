@@ -1,10 +1,12 @@
-We also used RDF data gathered automatically from the World Atlas of Language Structures (WALS) \cite{Haspelmath_etal2008}. WALS can be freely accessed from \url{http://wals.info}, and the database can be downloaded as a .csv file. However, there is also an RDF endpoint, which has been integrated with the LLOD cloud. To access the WALS, data, then, we used the SPARQL endpoint available at: \begin{quote}.\url{http://mlode-sparql.nlp2rdf.org/sparql}.\end{quote}
-
-To use the endpoint, go to the link above. Remove the `Default Data Set Name (Graph IRI)' in the top entry box by deleting \url{http://mlode.nlp2rd.org}, so that the box is empty. Write your query into the `Query Text' box, and press `Run Query.' The query will then load. The hyperlink of the loaded query can be used as a way to refer to that result without needing to re-enter the query each iteration. 
-
 %I don't seem to have the query to get the code for each of the languages, and this is kind of repetitious to the other paper. What do you think? Should we include this? 
 
 
-We plotted this data with map4rdf software. The results of this can be seen here: \url{http://geo.linkeddata.es/map4rdf-wals/#dashboard}
+We also used RDF data gathered automatically from the World Atlas of Language Structures (WALS) \cite{Haspelmath_etal2008}. WALS can be freely accessed from \url{http://wals.info}, and the database can be downloaded as a .csv file. However, there is also an RDF endpoint, which has been integrated with the LLOD cloud. To access WALS data, then, we used the SPARQL endpoint available at: \url{http://mlode-sparql.nlp2rdf.org/sparql}.
 
-%Boris, you must know the details for this. I don't. 
+In order to use the LLOD through the endpoint, go to the link above. Remove the `Default Data Set Name (Graph IRI)' in the top entry box by deleting \url{http://mlode.nlp2rd.org}, so that the box is empty. Write your query into the `Query Text' box, and press `Run Query.' The query will then load. The hyperlink of the loaded query can be used as a way to refer to that result without needing to re-enter the query each iteration. 
+
+Using this method, we devised a SPARQL query that gathered the longitude and latitude of each language within WALS specified by the three-letter language identifier WALS uses. Using the same methods as above, we converted this data into RDF, and then plotted it with the map4rdf software. The results of this can be seen here: \url{http://geo.linkeddata.es/map4rdf-wals/#dashboard}. 
+
+%Not at the moment it can't! 
+
+For more details on the SPARQL endpoint for the LLOD, see Littauer {\it et al.}, this issue. 

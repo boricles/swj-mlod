@@ -1,0 +1,78 @@
+\begin{thebibliography}{10}
+
+\bibitem{bernersLee2006_linkeddata}
+T.~Berners-Lee.
+\newblock Design issues: Linked data.
+\newblock \url{http://www.w3.org/DesignIssues/LinkedData.html}, 2006.
+
+\bibitem{ldl-llod}
+C.~Chiarcos, S.~Hellmann, and S.~Nordhoff.
+\newblock Linking linguistic resources: {Examples} from the {Open Linguistics
+  Working Group}, this vol.
+\newblock p. 201-216.
+
+\bibitem{owlg4lrec}
+C.~Chiarcos, S.~Hellmann, S.~Nordhoff, et~al.
+\newblock {The Open Linguistics Working Group}.
+\newblock In {\em Proc. LREC 2012}, Istanbul, Turkey, May 2012.
+
+\bibitem{ChiarcosLOD}
+C.~Chiarcos, S.~Moran, P.~N. Mendes, S.~Nordhoff, and R.~Littauer.
+\newblock Building a linked open data cloud of linguistic resources:
+  Motivations and developments.
+\newblock In I.~Gurevych and J.~Kim, editors, {\em The People's Web Meets NLP:
+  Collaboratively Constructed Language Resources}. Springer, to appear.
+
+\bibitem{deLeon_2012}
+A.~de~Le\'on, F.~Wisniewki, B.~Villaz\'on-Terrazas, and O.~Corcho.
+\newblock {Map4rdf - Faceted Browser for Geospatial Datasets}.
+\newblock In {\em {Proceedings of the First Workshop on USING OPEN DATA}}. W3C,
+  June 2012.
+
+\bibitem{Haspelmath_etal2008}
+M.~Haspelmath, M.~Dryer, D.~Gil, and B.~Comrie, editors.
+\newblock {\em The {World Atlas of Language Structures} Online}.
+\newblock Max Planck Digital Library, Munich, 2008.
+
+\bibitem{LittEACL}
+R.~Littauer, R.~Turnbull, and A.~Palmer.
+\newblock Visualising typological relationships: Plotting wals with heat maps.
+\newblock In {\em Proceedings of the EACL 2012 Workshop on the Visualization of
+  Linguistic Patterns}, page~4, Avignon, France, April 2012. Association for
+  Computational Linguistics.
+
+\bibitem{Rohrdantz:2012}
+C.~Rohrdantz, M.~Hund, T.~Mayer, B.~W\"alchli, and D.~A. Keim.
+\newblock The world's languages explorer: Visual analysis of language features
+  in genealogical and areal contexts.
+\newblock {\em Comp. Graph. Forum}, 31(3pt1):935--944, June 2012.
+
+\bibitem{RMB+10}
+C.~Rohrdantz, T.~Mayer, M.~Butt, F.~Plank, and D.~A. Keim.
+\newblock {Comparative visual analysis of cross-linguistic featuretures}.
+\newblock In J.~Kohlhammer and D.~A. Keim, editors, {\em Proceedings of the
+  International Symposium on Visual Analytics Science and Technology (EuroVAST
+  2010). The DEFINITIVE VERSION is available at diglib.eg.org.}, pages 27--32,
+  2010.
+
+\bibitem{theron}
+R.~Ther\'on, L.~Fontanillo, A.~Esteban, and C.~Seguín.
+\newblock Visual analytics: A novel approach in corpus linguistics and the
+  nuevo diccionario hist\'orico del espa\~nol.
+\newblock In {\em III Congreso Internacional de Lingüística de Corpusi}, 2011.
+
+\bibitem{Villazon_2011}
+B.~Villaz\'{o}n-Terrazas, L.~Vilches-Bl\'{a}zquez, O.~Corcho, and
+  A.~G\'{o}mez-P\'{e}rez.
+\newblock {Methodological Guidelines for Publishing Government Linked Data
+  Linking Government Data}.
+\newblock In D.~Wood, editor, {\em {Linking Government Data}}, chapter~2, pages
+  27--49. Springer New York, New York, NY, 2011.
+
+\bibitem{10.1371/journal.pone.0023613}
+M.~Wieling, J.~Nerbonne, and R.~H. Baayen.
+\newblock Quantitative social dialectology: Explaining linguistic variation
+  geographically and socially.
+\newblock {\em PLoS ONE}, 6(9):e23613, 09 2011.
+
+\end{thebibliography}
