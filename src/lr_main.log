@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.12.15)  6 DEC 2012 02:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.12.15)  7 DEC 2012 01:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -200,23 +200,26 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count118
 ))
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
+)
 (/usr/local/texlive/2009/texmf-dist/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count119
+\float@exts=\toks25
+\float@box=\box38
+\@float@everytoks=\toks26
+\@floatcapt=\box39
 ) (./lr_main.aux
 
-! Package natbib Error: Bibliography not compatible with author-year citations.
+LaTeX Warning: Label `t1' multiply defined.
 
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...mand\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-? 
 
 LaTeX Warning: Label `t1' multiply defined.
 
@@ -229,182 +232,185 @@ LaTeX Warning: Label `t1' multiply defined.
 )
 \openout1 = `lr_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 34.
  (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-\c@lstlisting=\count119
+\c@lstlisting=\count120
 
 (/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
-\scratchdimen=\dimen129
-\scratchbox=\box38
-\nofMPsegments=\count121
-\nofMParguments=\count122
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count123
-\MPscratchDim=\dimen130
-\MPnumerator=\count124
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count121
+\scratchdimen=\dimen131
+\scratchbox=\box40
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen132
+\MPnumerator=\count125
+\everyMPtoPDFconversion=\toks28
 )
-\c@sv@footnote=\count125
 \c@sv@footnote=\count126
+\c@sv@footnote=\count127
  (./lr_introduction.tex)
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 77.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 80.
 
 (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
  [1{/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ] (./lr_semweb.tex
-Underfull \hbox (badness 832) in paragraph at lines 8--10
+Underfull \hbox (badness 832) in paragraph at lines 9--10
 []\T1/ptm/m/n/10 Following these rules, the Re-source De-scrip-tion
  []
 
-) (./lr_llod.tex
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
- (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/t1pcr.fd
+) (./lr_llod.tex <llod.png, id=12, 708.6475pt x 532.99126pt>
+File: llod.png Graphic file (type png)
+ <use llod.png>
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 6.
+
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-
- []
-
-) (./lr_querying.tex
-Overfull \hbox (31.5pt too wide) in paragraph at lines 7--7
-[]\T1/ptm/m/n/10 .$\T1/pcr/m/n/10 http : / / mlode-[]sparql . nlp2rdf . org / s
-parql$\T1/ptm/m/n/10 . 
- []
-
-[2] (./query_2)
-Underfull \hbox (badness 1412) in paragraph at lines 22--22
+))
+(./lr_querying.tex (./query_2) [2] [3 <./llod.png (PNG copy)>]
+Underfull \hbox (badness 1412) in paragraph at lines 41--41
 []$[]$[]\T1/ptm/m/n/8 A full list can be found here: $\T1/pcr/m/n/8 http : / / 
 www . sil . org /
  []
 
+
+Underfull \hbox (badness 958) in paragraph at lines 45--46
+[]\T1/ptm/m/n/10 As is clear, there are sev-eral databases al-ready
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 45--46
+\T1/ptm/m/n/10 ODIN, a database of lan-guage cor-pora au-to-mat-i-
+ []
+
 (./query_1)
-Overfull \hbox (1.3254pt too wide) in paragraph at lines 66--66
+Overfull \hbox (1.3254pt too wide) in paragraph at lines 88--88
 []|\T1/ptm/m/n/8 label| 
  []
 
 
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 67--67
+Overfull \hbox (5.3255pt too wide) in paragraph at lines 89--89
 []|\T1/ptm/m/n/8 Chrau| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 67--67
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 89--89
 []|\T1/ptm/m/n/8 10.75| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 67--67
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 89--89
 []|\T1/ptm/m/n/8 107.5| 
  []
 
 
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 68--68
+Overfull \hbox (5.3255pt too wide) in paragraph at lines 90--90
 []|\T1/ptm/m/n/8 Chrau| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 68--68
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 90--90
 []|\T1/ptm/m/n/8 10.75| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 68--68
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 90--90
 []|\T1/ptm/m/n/8 107.5| 
  []
 
 
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 69--69
+Overfull \hbox (5.3255pt too wide) in paragraph at lines 91--91
 []|\T1/ptm/m/n/8 Chrau| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 69--69
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 91--91
 []|\T1/ptm/m/n/8 10.75| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 69--69
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 91--91
 []|\T1/ptm/m/n/8 107.5| 
  []
 
 
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 70--70
+Overfull \hbox (5.3255pt too wide) in paragraph at lines 92--92
 []|\T1/ptm/m/n/8 Chrau| 
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 70--70
+Underfull \hbox (badness 1616) in paragraph at lines 92--92
 \T1/ptm/m/n/8 de-notes 'fin-ger' (or, very rarely,
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 70--70
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 92--92
 []|\T1/ptm/m/n/8 10.75| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 70--70
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 92--92
 []|\T1/ptm/m/n/8 107.5| 
  []
 
 
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 71--71
+Overfull \hbox (5.3255pt too wide) in paragraph at lines 93--93
 []|\T1/ptm/m/n/8 Chrau| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 71--71
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 93--93
 []|\T1/ptm/m/n/8 10.75| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 71--71
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 93--93
 []|\T1/ptm/m/n/8 107.5| 
  []
 
 ) (./lr_conclusions.tex) (./lr_main.bbl)
-Extra height:0.0pt when 529.83972pt
-(2)Left:529.83972pt Right:531.67944pt Output:529.83972pt
-(2)Left:531.67944pt Right:531.67944pt Output:531.67944pt
+Extra height:0.0pt when 570.47974pt
+(2)Left:570.47974pt Right:572.11453pt Output:570.47974pt
+(2)Left:572.11453pt Right:572.11453pt Output:572.11453pt
 - LAST -
 Extra skip:0.0pt
-Left:531.67944pt
-Right:531.67944pt
-Output:531.67944pt
- [3] [4] [5] (./lr_main.aux)
+Left:572.11453pt
+Right:572.11453pt
+Output:572.11453pt
+ [4] [5] [6] (./lr_main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3723 strings out of 493848
- 47409 string characters out of 3149206
- 148111 words of memory out of 3000000
- 6949 multiletter control sequences out of 15000+200000
+ 3838 strings out of 493848
+ 48983 string characters out of 3149206
+ 150775 words of memory out of 3000000
+ 7055 multiletter control sequences out of 15000+200000
  43282 words of font info for 67 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,15n,32p,1556b,1110s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,15n,32p,1405b,1120s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/tex
 live/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
@@ -414,9 +420,9 @@ e/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2009/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on lr_main.pdf (5 pages, 112042 bytes).
+Output written on lr_main.pdf (6 pages, 361741 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

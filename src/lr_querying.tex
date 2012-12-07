@@ -3,12 +3,8 @@
 %%http://mlode.nlp2rdf.org/sparql
 %%
 
-A SPARQL end point for the LLOD was set up as part of the MLODE conference, and there are plans to see that it remains in public use. This endpoint can be found at:
-\begin{quote}.\url{http://mlode-sparql.nlp2rdf.org/sparql}.\end{quote}
-In order to test the use of this endpoint, and in order to showcase how the LLOD can be queried and used in a non-theoretical capacity, we wrote the two queries presented below. These are by no means the only queries possible on the endpoint, nor do they represent the full nature of the LLOD - rather, these were judged to be of the most interest to linguistic researchers using online databases already. 
-
 \begin{center}
-\begin{table*}[t!]
+\begin{table*}[t!hbp]
 \caption{Query for resources with a given ISO 639-3 code} \label{t1}
 \begin{tabular}{lll}
 \hline
@@ -17,11 +13,36 @@ In order to test the use of this endpoint, and in order to showcase how the LLOD
 \end{tabular}
 \end{table*}
 \end{center}
-%I can't seem to get this to position on the right page. :/
 
-Using the SPARQL endpoint described above, we set ourselves the goal of devising SPARQL queries to identify all resources in the LLOD that have data with regard to a given ISO 639-3 unique language name identifier. ISO 639-3 identifiers are maintained by the Summer Institute of Linguistics\footnote{http://www.sil.org/iso639-3/}, and consist of three-letter codes which refer to one of the existing 7000+ entries.\footnote{A full list can be found here: \url{http://www.sil.org/iso639-3/download.asp}} This query can be seen in Figure 1. The three-letter language code used is \url{chr}, the language code for Chrua, a Vietnamese language. This code was chosen at random. 
+\begin{table*}[b!htp]
+\caption{Result for query for resources with a given ISO 639-3 code} \label{t1}
+\begin{tabular}{lll}
+\hline
+\url{relation} \\
+\url{http://www.llmap.org/maps/by-code/crw.html} \\
+\url{http://www.ethnologue.com/show_language.asp?code=crw} \\
+\url{http://en.wikipedia.org/wiki/ISO_639:crw} \\
+\url{http://www.lexvo.org/data/iso639-3/crw} \\
+\url{http://www.sil.org/iso639-3/documentation.asp?id=crw} \\
+\url{http://multitree.org/codes/crw} \\
+\url{http://scriptsource.org/lang/crw} \\
+\url{http://www.language-archives.org/language/crw} \\
+\url{http://odin.linguistlist.org/igt_urls.php?lang=crw} \\
+\url{http://linguistlist.org/forms/langs/LLDescription.cfm?code=crw} \\
+\url{http://www.glottolog.org/resource/languoid/id/chra1242} \\
+\hline
+\end{tabular}
+\end{table*}
 
-To use the endpoint, go to the link above. Remove the `Default Data Set Name (Graph IRI)' in the top entry box by deleting \url{http://mlode.nlp2rd.org}, so that the box is empty. Write your query into the `Query Text' box, and press `Run Query.' The query will then load. The hyperlink of the loaded query can be used as a way to refer to that result without needing to re-enter the query each iteration. The output of this query, as of the time of writing, can be seen in Figure 2. As is clear, there are several databases already available in the LLOD which can be used to gather more, related information. Notable among the available databases are: Multitree, which shows phylogenic relationships between languages; glottolog, which is a database of reference information for languages; ODIN, a database of language corpora automatically extracted from research papers around the web; Wikipedia; and LinguistList, which lists current researchers and reference works for each language. 
+A SPARQL endpoint for the LLOD was set up as part of the MLODE conference, and there are plans to see that it remains in public use. This endpoint can be found at: \url{http://mlode-sparql.nlp2rdf.org/sparql}. 
+
+In order to test the use of this endpoint, and in order to showcase how the LLOD can be queried and used in a non-theoretical capacity, we wrote the two queries presented below. These are by no means the only queries possible on the endpoint, nor do they represent the full nature of the LLOD - rather, these were judged to be of the most interest to linguistic researchers using online databases already. 
+
+Using the SPARQL endpoint described above, we set ourselves the goal of devising SPARQL queries to identify all resources in the LLOD that have data with regard to a given ISO 639-3 unique language name identifier. ISO 639-3 identifiers are maintained by the Summer Institute of Linguistics\footnote{http://www.sil.org/iso639-3/}, and consist of three-letter codes which refer to one of the existing 7000+ extant languages in the database.\footnote{A full list can be found here: \url{http://www.sil.org/iso639-3/download.asp}} This query can be seen in Table 1. The three-letter language code used is \url{chr}, the language code for Chrau, a Vietnamese language. This code was chosen at random. 
+
+To use the endpoint, go to the link above. Remove the `Default Data Set Name (Graph IRI)' in the top entry box by deleting \url{http://mlode.nlp2rd.org}, so that the box is empty. Write your query into the `Query Text' box, and press `Run Query.' The query will then load. The hyperlink of the loaded query can be used as a way to refer to that result without needing to re-enter the query each iteration. The output of this query, as of the time of writing, can be seen in Table 2. 
+
+As is clear, there are several databases already available in the LLOD which can be used to gather more, related information. Notable among the available databases are: Multitree, which shows phylogenic relationships between languages; glottolog, which is a database of reference information for languages; ODIN, a database of language corpora automatically extracted from research papers around the web; Wikipedia; and LinguistList, which lists current researchers and reference works for each language. 
 
 \begin{table*}
 \caption{Result for query for resources with a given ISO 639-3 code} \label{t1}
@@ -45,7 +66,7 @@ To use the endpoint, go to the link above. Remove the `Default Data Set Name (Gr
 
 %http://mlode.nlp2rdf.org/sparql?default-graph-uri=&query=prefix+wals%3A+%3Chttp%3A%2F2Fwals.info%2Flanguage%2F%3E%0D%0Aselect+distinct+%3Frelation+where+%7B%0D0Awals%3Achr+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Frelation%3E+%3Frelation+.0D%0A%7D&format=text%2Fhtml&timeout=0&debug=on
 
-The next query retrieves all of the information in WALS for a given ISO 639-3 code. WALS also uses their own language identifier, along with the ISO 639-3 code. For this reason, researchers often need to create wrappers to mine data bot from the Ethnologue, SIL, or Linguist databases and from WALS. It is hypothetically possible to create a query that would run using the WALS language code, find the ISO code, and then retrieve all information from other databases for that code. The use of this sort of query cannot be understated in the amount of time and effort saved. The query gathering WALS data can be seen in FIgure 3. 
+The next query retrieves all of the information in WALS for a given ISO 639-3 code. WALS also uses their own language identifier, along with the ISO 639-3 code. For this reason, researchers often need to create wrappers to mine data bot from the Ethnologue, SIL, or Linguist databases and from WALS. It is hypothetically possible to create a query that would run using the WALS language code, find the ISO code, and then retrieve all information from other databases for that code. The use of this sort of query cannot be understated in the amount of time and effort saved. The query gathering WALS data can be seen in Table 3. 
 
 \begin{table*}
 \caption{Query for all information for a given ISO 639-3 code on WALS} \label{t1}
@@ -56,7 +77,8 @@ The next query retrieves all of the information in WALS for a given ISO 639-3 co
 \end{tabular}
 \end{table*}
 
-The results of the query in Figure 3 can be seen in Figure 4. Here, we have limited the results to 5 entries. (This can be done by appending LIMIT 5 after the closing bracket at the end of the code snippet.) 
+The results of the query in Table 3 can be seen in Table 4. Here, we have limited the results to 5 entries. (This can be done by appending LIMIT 5 after the closing bracket at the end of the code snippet.) 
+
 
 \begin{table*}
 \caption{Results (LIMIT 5) for WALS for a given ISO 639-3 code} \label{t1}

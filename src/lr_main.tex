@@ -20,7 +20,9 @@
 \usepackage{amsmath}
 \usepackage{dcolumn}
 %\usepackage{endnotes}
-\usepackage{graphics, url}
+\usepackage{graphics, graphicx}
+\usepackage{url}
+\usepackage{float}
 
 
 \newcolumntype{d}[1]{D{.}{.}{#1}}
@@ -34,7 +36,8 @@
 
 %\pretitle{Pretitle}
 \title{Using the LLOD Cloud for Querying Linguistic Resources%\thanks{Footnote in title.}
-} % CHANGE AS SUITED - RL.
+} 
+% CHANGE AS SUITED - RL.
 
 \runningtitle{Using the LLOD Cloud for Querying Linguistic Resources}
 %\subtitle{Subtitle}
@@ -76,7 +79,7 @@ Semantic Web\sep Linked Data\sep LLOD\sep Linguistics\sep Typology\sep Language 
 \input{lr_introduction}
 
 \section{The Semantic Web}
-\input{lr_semweb}
+\input{lr_semweb} 
 
 \section{The LLOD cloud}
 \input{lr_llod}
@@ -87,7 +90,9 @@ Semantic Web\sep Linked Data\sep LLOD\sep Linguistics\sep Typology\sep Language 
 \section{Conclusions}
 \input{lr_conclusions}
 
-\bibliographystyle{IEEEtran} %Probably not the style we should use???
+
+
+\bibliographystyle{abbrv}
 \bibliography{bib.bib}
 
 \end{document}
