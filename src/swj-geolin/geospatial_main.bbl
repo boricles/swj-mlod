@@ -1,33 +1,27 @@
 \begin{thebibliography}{10}
 
-\bibitem{bernersLee2006_linkeddata}
-T.~Berners-Lee.
-\newblock Design issues: Linked data.
-\newblock \url{http://www.w3.org/DesignIssues/LinkedData.html}, 2006.
+\bibitem{Bendor-Samuel_etal1989}
+J.~Bendor-Samuel, E.~J. Olsen, and A.~R. White.
+\newblock {Dogon}.
+\newblock In J.~Bendor-Samuel, editor, {\em The Niger-Congo Languages--A
+  Classification and Description of Africa's Largest Language Family}, pages
+  169--177. University Press of America, Lanham, Maryland, 1989.
 
-\bibitem{ldl-llod}
-C.~Chiarcos, S.~Hellmann, and S.~Nordhoff.
-\newblock Linking linguistic resources: {Examples} from the {Open Linguistics
-  Working Group}, this vol.
-\newblock p. 201-216.
-
-\bibitem{owlg4lrec}
-C.~Chiarcos, S.~Hellmann, S.~Nordhoff, et~al.
-\newblock {The Open Linguistics Working Group}.
-\newblock In {\em Proc. LREC 2012}, Istanbul, Turkey, May 2012.
-
-\bibitem{ChiarcosLOD}
-C.~Chiarcos, S.~Moran, P.~N. Mendes, S.~Nordhoff, and R.~Littauer.
-\newblock Building a linked open data cloud of linguistic resources:
-  Motivations and developments.
-\newblock In I.~Gurevych and J.~Kim, editors, {\em The People's Web Meets NLP:
-  Collaboratively Constructed Language Resources}. Springer, to appear.
+\bibitem{Blench2005}
+R.~Blench.
+\newblock {A survey of Dogon languages in Mali: overview}.
+\newblock {\em OGMIOS}, 26:14--15, 2005.
 
 \bibitem{deLeon_2012}
 A.~de~Le\'on, F.~Wisniewki, B.~Villaz\'on-Terrazas, and O.~Corcho.
 \newblock {Map4rdf - Faceted Browser for Geospatial Datasets}.
 \newblock In {\em {Proceedings of the First Workshop on USING OPEN DATA}}. W3C,
   June 2012.
+
+\bibitem{farrar2003linguistic}
+S.~Farrar and D.~T. Langendoen.
+\newblock {A Linguistic Ontology for the Semantic Web}.
+\newblock {\em GLOT International}, 7:97--100, 2003.
 
 \bibitem{Haspelmath_etal2008}
 M.~Haspelmath, M.~Dryer, D.~Gil, and B.~Comrie, editors.

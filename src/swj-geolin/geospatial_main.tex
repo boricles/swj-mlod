@@ -34,10 +34,11 @@
 
 % CHANGE AS SUITED - RL.
 %\pretitle{Pretitle}
-\title{Linguistics Linked Data Life Cycle for Linguistics Resources Enhanced with Geospatial Data %\thanks{Footnote in title.}
+% Linguistics Linked Data Life Cycle for 
+\title{Linguistic Resources Enhanced with Geospatial Information %\thanks{Footnote in title.}
 }
 
-\runningtitle{Enhancing Linguistic Resources with Geospatial Mapping}
+\runningtitle{Linguistic Resources enhanced with Geospatial Information}
 %\subtitle{Subtitle}
 
 %\review{Name Surname, University, Country}{Name Surname, University, Country}{Name Surname, University, Country}
@@ -45,7 +46,7 @@
 \author[A,B]{\fnms{Richard} \snm{Littauer}},
 \author[C]{\fnms{Boris} \snm{Villazon-Terrazas}}
 and
-\author[D]{\fnms{Steven} \snm{Moran}}
+\author[D,E]{\fnms{Steven} \snm{Moran}}
 \runningauthor{Littauer, Villazon-Terrazas and Moran}
 
 %\address[A]{Journal Production Department, IOS Press, Nieuwe Hemweg 6b, 1013 BG, Amsterdam,\\ The Netherlands\\ E-mail: first@somewhere.com}
@@ -54,12 +55,16 @@ and
 \address[B]{Computational Linguistics Department, Saarland University, Saarbr\"ucken, 66121, Germany\\  E-mail: littauer@coli.uni-saarland.de}
 \address[C]{Intelligent Software Components, iSOCO, S.A., Av. del Partenon 16-18, Madrid, Spain\\
 E-mail: bvillazon@isoco.com}
-\address[D]{Research Unit Quantitative Language Comparison, Ludwig Maximilian University, Geschwister Scholl Platz 1, D-80539 Munich, Germany\\ 
-E-mail: bambooforest@gmail.com} %Steve? Probably not the right email. 
+\address[D]{Department of Linguistics, University of Z\"urich, Plattenstrasse 54, CH-8032 Z\"urich, Switzerland} 
+\address[E]{Research Unit Quantitative Language Comparison, Ludwig Maximilian University, Geschwister Scholl Platz 1, D-80539 Munich, Germany\\ 
+E-mail: steve.moran@lmu.de}
 
 
 \begin{abstract}
-The Linguistics Linked Open Data cloud (LLOD), created and maintained by the Open Linguistics Working Group, is a (sub-)cloud of the LOD cloud, conforming to the Linked Open Data paradigm. The potential of a very large, interlinking, interoperable sub-cloud for linguistics research is great; however, early adopters may be hesitant to upload their datasets or use the cloud, due to a large learning curve or a lack of obvious uses. Here, we present an iterative and incremental Linguistics Linked Data Life Cycle that covers linguistic data resources, i.e., spreadsheets, that are enhanced with geospatial information. We use only freely accessible technologies in the Semantic Web framework, as well as a dataset of lexical and geospatial information of Dogon languages in West Africa. We also present a visualisation of language data from the World Atlas of Language Structures available as dataset within the LLOD. By doing so, we shed light upon the possibilities of the Semantic Web, and in particular the LLOD, for potential researchers in the digital humanities and computational sciences. %144 words
+
+In this short report on language data and RDF tools, we describe the transformation process that we undertook to convert spreadsheet data about a group of endangered languages and where they are spoken in West Africa into an RDF triple store. We use RDF tools to organize and visualize these data on a world map, accessible through a web browser. The functionality we develop allows researchers to see where these languages are spoken and to query the language data. This type of development not only showcases the power of RDF, but it provides a powerful tool for linguists trying the solve the mysteries of the genealogical relatedness of the Dogon languages.
+
+% Within the Linked Open Data initiative, the Linguistic Linked Open Data (LLOD) cloud is being developed by the Open Linguistics Working Group to provide broad access to detailed linguistic data through the Semantic Web framework. Like other scientific disciplines, the potential of very large, interlinking and interoperable data for research in linguistics of the LOD cloud, conforming to the Linked Open Data paradigm. The potential of a very large, interlinking, interoperable sub-cloud for linguistics research is great; however, early adopters may be hesitant to upload their datasets or use the cloud, due to a large learning curve or a lack of obvious uses. Here, we present an iterative and incremental Linguistics Linked Data Life Cycle that covers linguistic data resources, i.e., spreadsheets, that are enhanced with geospatial information. We use only freely accessible technologies in the Semantic Web framework, as well as a dataset of lexical and geospatial information of Dogon languages in West Africa. We also present a visualisation of language data from the World Atlas of Language Structures available as dataset within the LLOD. By doing so, we shed light upon the possibilities of the Semantic Web, and in particular the LLOD, for potential researchers in the digital humanities and computational sciences. %144 words
 %The abstract should be clear, descriptive, self-explanatory and no longer than 200 words. It should alsobe suitable for publication in abstracting services. Do not include references or formulae in the abstract.
 \end{abstract}
 
@@ -75,16 +80,16 @@ Semantic Web\sep Linked Data\sep LLOD\sep Linguistics\sep Typology\sep Language 
 \section{Introduction}\label{sec:intro}
 \input{gs_intro}
 
-\section{Related Work}
+\section{Background}
 \input{gs_relwork}
 
 \section{LLD Life Cycle}
 \input{gs_langeo}
 
-\section{Querying to Geospatial Information}\label{sec:query}
-\input{gs_querying}
+% \section{Querying Geospatial Information}\label{sec:query}
+% \input{gs_querying}
 
-\section{Conclusions}
+\section{Summary}
 \input{gs_conc}
 
 \bibliographystyle{abbrv}

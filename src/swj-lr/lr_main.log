@@ -1,50 +1,47 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012) (format=xelatex 2012.6.30)  7 DEC 2012 18:04
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.12.15)  7 DEC 2012 23:49
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **lr_main.tex
 (./lr_main.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
- polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
-lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
-welsh, loaded.
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, german-x-2009-06-19, ngerman-x-2009-06-19, ancientgreek, ibycus, ar
+abic, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutc
+h, esperanto, estonian, farsi, finnish, french, galician, german, ngerman, mono
+greek, greek, hungarian, icelandic, indonesian, interlingua, irish, italian, ku
+rmanji, latin, latvian, lithuanian, mongolian, mongolian2a, bokmal, nynorsk, po
+lish, portuguese, romanian, russian, sanskrit, serbian, slovak, slovenian, span
+ish, swedish, turkish, ukenglish, ukrainian, uppersorbian, welsh, loaded.
 (./iosart2c.cls
 Document Class: iosart2c 2010/10/28 v1.0, IOS Press
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fleqn.clo
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/fleqn.clo
 File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
 \mathindent=\dimen102
 )
 Ten point
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@section=\count79
+\c@subsection=\count80
+\c@subsubsection=\count81
+\c@paragraph=\count82
+\c@subparagraph=\count83
+\c@figure=\count84
+\c@table=\count85
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \tablewidth=\dimen103
 \saved@tablewidth=\dimen104
-\c@algorithm=\count87
+\c@algorithm=\count86
 \t@glob@notes=\toks14
 \t@loc@notes=\toks15
-\note@cnt=\count88
-\c@author=\count89
-\n@author=\count90
-\c@address=\count91
+\note@cnt=\count87
+\c@author=\count88
+\n@author=\count89
+\c@address=\count90
 \sv@mathsurround=\dimen105
-\sv@hyphenpenalty=\count92
-\prev@elem=\count93
-\cur@elem=\count94
+\sv@hyphenpenalty=\count91
+\prev@elem=\count92
+\cur@elem=\count93
 \fm@box=\box26
 \fm@size=\dimen106
 \t@abstract=\box27
@@ -53,13 +50,13 @@ Ten point
 \b@section@skip=\skip43
 \b@pretitle@skip=\skip44
 \t@xtheight=\dimen108
-\c@titlefootnote=\count95
+\c@titlefootnote=\count94
 \@@topskip=\dimen109
 \b@author@skip=\dimen110
 \dp@t@keywords=\dimen111
-\@pubyear=\count96
-\@copyear=\count97
-(/usr/local/texlive/2012/texmf-dist/tex/latex/sttools/flushend.sty
+\@pubyear=\count95
+\@copyear=\count96
+(/usr/local/texlive/2009/texmf-dist/tex/latex/sttools/flushend.sty
 Package: flushend 1997/10/01
 \@aaa=\box29
 \@ccc=\box30
@@ -69,79 +66,79 @@ Package: flushend 1997/10/01
 \@extra@skip=\dimen112
 \@nd@page@rule=\dimen113
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-\lst@mode=\count98
+\lst@mode=\count97
 \lst@gtempboxa=\box33
 \lst@token=\toks18
-\lst@length=\count99
+\lst@length=\count98
 \lst@currlwidth=\dimen114
-\lst@column=\count100
-\lst@pos=\count101
+\lst@column=\count99
+\lst@pos=\count100
 \lst@lostspace=\dimen115
 \lst@width=\dimen116
-\lst@newlines=\count102
-\lst@lineno=\count103
+\lst@newlines=\count101
+\lst@lineno=\count102
 \lst@maxwidth=\dimen117
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count104
-\lst@skipnumbers=\count105
+\c@lstnumber=\count103
+\lst@skipnumbers=\count104
 \lst@framebox=\box34
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/local/texlive/2009/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1enc.def
+(/usr/local/texlive/2009/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/times.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
+(/usr/local/texlive/2009/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count106
+\c@NAT@ctr=\count105
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen118
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen119
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count107
+\inf@bad=\count106
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count108
-\leftroot@=\count109
+\uproot@=\count107
+\leftroot@=\count108
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count110
-\DOTSCASE@=\count111
+\classnum@=\count109
+\DOTSCASE@=\count110
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -150,15 +147,15 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen120
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count112
-\c@MaxMatrixCols=\count113
+\macc@depth=\count111
+\c@MaxMatrixCols=\count112
 \dotsspace@=\muskip10
-\c@parentequation=\count114
-\dspbrk@lvl=\count115
+\c@parentequation=\count113
+\dspbrk@lvl=\count114
 \tag@help=\toks20
-\row@=\count116
-\column@=\count117
-\maxfields@=\count118
+\row@=\count115
+\column@=\count116
+\maxfields@=\count117
 \andhelp@=\toks21
 \eqnshift@=\dimen121
 \alignsep@=\dimen122
@@ -173,10 +170,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/dcolumn.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen127
 \extrarowheight=\dimen128
@@ -184,31 +181,31 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip50
 \backup@length=\skip51
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/usr/local/texlive/2009/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: xetex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2012/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
-
+(/usr/local/texlive/2009/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count118
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen129
 \Gin@req@width=\dimen130
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/ltxmisc/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2009/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count119
 \float@exts=\toks25
@@ -216,12 +213,6 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks26
 \@floatcapt=\box38
 ) (./lr_main.aux
-
-LaTeX Warning: Label `t1' multiply defined.
-
-
-LaTeX Warning: Label `t1' multiply defined.
-
 
 LaTeX Warning: Label `t1' multiply defined.
 
@@ -244,36 +235,49 @@ LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 34.
- (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \c@lstlisting=\count120
-\c@sv@footnote=\count121
-\c@sv@footnote=\count122
 
-(./lr_introduction.tex
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 30.
+(/usr/local/texlive/2009/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count121
+\scratchdimen=\dimen131
+\scratchbox=\box39
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen132
+\MPnumerator=\count125
+\everyMPtoPDFconversion=\toks28
+)
+\c@sv@footnote=\count126
+\c@sv@footnote=\count127
+ (./lr_introduction.tex
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 3.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/t1pcr.fd
+(/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
 []$[]$[]$\T1/pcr/m/n/8 http : / / linguistics . okfn . org / resources /
  []
 
 )
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 81.
- (/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omsptm.fd
+ (/usr/local/texlive/2009/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
- [0
+ [0{/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-(./lr_semweb.tex) (./lr_llod.tex
-File: llod.png Graphic file (type QTm)
- <use  "llod.png" >
+] (./lr_semweb.tex)
+(./lr_llod.tex <llod.png, id=13, 708.6475pt x 532.99126pt>
+File: llod.png Graphic file (type png)
+ <use llod.png>
 Underfull \hbox (badness 824) in paragraph at lines 16--17
 []\T1/ptm/m/n/10 The OWLG stip-u-lates the fol-low-ing cri-te-ria for
  []
@@ -284,124 +288,141 @@ Underfull \hbox (badness 1412) in paragraph at lines 41--41
 www . sil . org /
  []
 
-[2] (./query_1)
-Overfull \hbox (1.3254pt too wide) in paragraph at lines 86--86
+[2 <./llod.png (PNG copy)>] (./query_1)
+Overfull \hbox (1.3254pt too wide) in paragraph at lines 61--61
 []|\T1/ptm/m/n/8 label| 
  []
 
 
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 87--87
+Overfull \hbox (5.3255pt too wide) in paragraph at lines 62--62
 []|\T1/ptm/m/n/8 Chrau| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 62--62
 []|\T1/ptm/m/n/8 10.75| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 87--87
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 62--62
 []|\T1/ptm/m/n/8 107.5| 
  []
 
 
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 88--88
+Overfull \hbox (5.3255pt too wide) in paragraph at lines 63--63
 []|\T1/ptm/m/n/8 Chrau| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 88--88
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 63--63
 []|\T1/ptm/m/n/8 10.75| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 88--88
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 63--63
 []|\T1/ptm/m/n/8 107.5| 
  []
 
 
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 89--89
+Overfull \hbox (5.3255pt too wide) in paragraph at lines 64--64
 []|\T1/ptm/m/n/8 Chrau| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 89--89
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 64--64
 []|\T1/ptm/m/n/8 10.75| 
  []
 
 
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 89--89
+Overfull \hbox (3.77364pt too wide) in paragraph at lines 64--64
 []|\T1/ptm/m/n/8 107.5| 
  []
 
-
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 90--90
-[]|\T1/ptm/m/n/8 Chrau| 
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 90--90
-\T1/ptm/m/n/8 de-notes 'fin-ger' (or, very rarely,
- []
-
-
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 90--90
-[]|\T1/ptm/m/n/8 10.75| 
- []
-
-
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 90--90
-[]|\T1/ptm/m/n/8 107.5| 
- []
-
-
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 91--91
-[]|\T1/ptm/m/n/8 Chrau| 
- []
-
-
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 91--91
-[]|\T1/ptm/m/n/8 10.75| 
- []
-
-
-Overfull \hbox (3.77364pt too wide) in paragraph at lines 91--91
-[]|\T1/ptm/m/n/8 107.5| 
- []
-
-) (./lr_conclusions.tex) [3] (./lr_main.bbl)
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Extra height:21.73193pt when 178.73193pt
+ [3]
+(./lr_conclusions.tex) (./lr_main.bbl)
+Underfull \vbox (badness 4084) has occurred while \output is active []
+
+Extra height:21.73193pt when 208.89407pt
+
+Underfull \vbox (badness 6141) has occurred while \output is active []
+
+Extra height:21.73193pt when 209.89407pt
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Extra height:21.73193pt when 179.73193pt
+Extra height:21.73193pt when 210.89407pt
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Extra height:21.73193pt when 180.73193pt
-Extra height:0.0pt when 181.73193pt
-(2)Left:181.73193pt Right:183.46387pt Output:181.73193pt
-(2)Left:183.46387pt Right:183.46387pt Output:183.46387pt
+Extra height:21.73193pt when 211.89407pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:21.73193pt when 212.89407pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:21.73193pt when 213.89407pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:21.73193pt when 214.89407pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:21.73193pt when 215.89407pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:21.73193pt when 216.89407pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:21.73193pt when 217.89407pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Extra height:21.73193pt when 218.89407pt
+Extra height:0.0pt when 219.89407pt
+(2)Left:219.89407pt Right:223.73193pt Output:219.89407pt
+(2)Left:223.73193pt Right:181.73193pt Output:223.73193pt
 - LAST -
 Extra skip:0.0pt
-Left:183.46387pt
-Right:183.46387pt
-Output:183.46387pt
+Left:223.73193pt
+Right:181.73193pt
+Output:223.73193pt
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [4]
-[5] (./lr_main.aux)
+(./lr_main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3471 strings out of 494004
- 44163 string characters out of 3150890
- 126808 words of memory out of 3000000
- 6692 multiletter control sequences out of 15000+200000
- 30652 words of font info for 54 fonts, out of 3000000 for 9000
- 1144 hyphenation exceptions out of 8191
+ 3825 strings out of 493848
+ 48876 string characters out of 3149206
+ 133072 words of memory out of 3000000
+ 7041 multiletter control sequences out of 15000+200000
+ 43282 words of font info for 67 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
  27i,15n,32p,1913b,1118s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2009/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/tex
+live/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
+e/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+009/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/200
+9/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2009/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2009/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on lr_main.pdf (5 pages, 363196 bytes).
+PDF statistics:
+ 52 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on lr_main.pdf (6 pages).

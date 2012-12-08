@@ -1,45 +1,46 @@
-This is BibTeX, Version 0.99c (TeX Live 2009)
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: geospatial_main.aux
 The style file: abbrv.bst
 Database file #1: bib.bib.bib
-You've used 12 entries,
+You've used 11 entries,
             2118 wiz_defined-function locations,
-            586 strings with 6731 characters,
-and the built_in function-call counts, 4470 in all, are:
-= -- 401
-> -- 281
-< -- 4
-+ -- 109
-- -- 95
-* -- 325
-:= -- 761
-add.period$ -- 40
-call.type$ -- 12
-change.case$ -- 79
+            587 strings with 6460 characters,
+and the built_in function-call counts, 4349 in all, are:
+= -- 411
+> -- 239
+< -- 5
++ -- 93
+- -- 80
+* -- 321
+:= -- 724
+add.period$ -- 37
+call.type$ -- 11
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 167
-empty$ -- 340
-format.name$ -- 95
-if$ -- 936
+cite$ -- 11
+duplicate$ -- 170
+empty$ -- 332
+format.name$ -- 80
+if$ -- 918
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 10
-newline$ -- 63
-num.names$ -- 31
-pop$ -- 111
+int.to.str$ -- 11
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 29
+pop$ -- 83
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 60
 quote$ -- 0
-skip$ -- 98
+skip$ -- 105
 stack$ -- 0
-substring$ -- 151
-swap$ -- 33
-text.length$ -- 4
+substring$ -- 219
+swap$ -- 41
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 46
+type$ -- 42
 warning$ -- 0
-while$ -- 36
-width$ -- 14
-write$ -- 135
+while$ -- 41
+width$ -- 13
+write$ -- 128

@@ -1,11 +1,11 @@
 swj-mlod
 ========
 
-Things to do:  
+This is the repository for writing two papers, submitted as proceedings
+to the Semantic Web Journal Special Issue following the MLODE workshop
+in Leipzig, September 2012. 
 
- * Make a Table of Contents  
- * Figure out the LaTeX template, I guess?  
- * Gauge depth of analysis/discussion/technical details  
- * Etc...  
+These papers are:
 
-_Test commit_
+ * Linguistic Resources Enhanced with Geospatial Information
+ * Querying the LLOD Cloud for Linguistic Resources

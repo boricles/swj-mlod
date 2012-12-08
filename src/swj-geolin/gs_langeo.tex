@@ -1,61 +1,34 @@
 %http://www.slideshare.net/boricles/linguistic-resources-enhanced-with-geospatial-information
-In this section we present the specialisation of the Linked Data Life Cycle presented in \cite{Villazon_2011} applied to linguistics resources enhanced to geospatial information.
+In this section we present the specification of the Linked Data Life Cycle presented in \cite{Villazon_2011} as applied to linguistic resources to visualize them with geospatial information.
 
 \subsection{Linguistics Resources}\label{sec:lr}
 
-Our initial data source consisted of a spreadsheet containing GPS and lexical information for a variety of languages in the Dogon family, spoken in West Africa, and in particular in Mali. The information was gathered by linguists, and %is in publication elsewhere. 
-In particular, these fields were gathered for each datapoint: language family, family code, language group, language group code, language autonym, dialect code, ISO 639-3 code, country code, village name, major cite, population, latitude, longitude, social information, images, image descriptions, video, video transcription, and a comment on the language. This means that each data point had a particular GPS mapping, which corresponded roughly to a local village or town. The initial goal of this dataset was to understand the spread, diversity, and phylogenetic origins of Dogon languages. The classification of Dogon is unclear, although there is substantial amounts of work in this area. 
-
-%\cite{Bertho1953, Meillet_etal1952, Naden1989, Calame-Griaule1956, Calame-Griaule1978, Timbine1987, Bender-Samuel1971, Manessy1981, BendorHaretll1989, Galtier1993,Plungian1995, WilliamsonBlench2000, Lewis2009}
+Our data source consists of a spreadsheet containing GPS coordinates of villages where the different Dogon languages are spoken in Mali. It also contains information about each of these languages, such as the language name, ISO 639-3 language name identifier, the language family and family code, village name, etc. and it can be easily combined via ISO 639-3 codes with dictionary data from each language. These datasets come from the Dogon Languages Project and are freely available online.\footnote{\url{http://dogonlanguages.org}} Each set of data points per village is associated with a GPS coordinate and can thus be plotted on a world map. Because the set of Dogon languages that belong to the Dogon language family have been until recently poorly documented and described, information about where these languages are spoken in relation to each other can assist linguists in identifying the genealogical relatedness of these languages. The visualization of linguistic information on maps has been a successful method for generating and testing hypotheses (cf.\ \cite{Haspelmath_etal2008}).
 
 %Steve going to need your help here. 
 
 \subsection{Specification}
-In order to accurately model data according to the representations set forth by the communities involved in the Semantic Web, a specification must be laid out. A specification is a specific set of requirements that need to be satisfied by a resource. Here, we are concerned with converting plain text data from a spreadsheet into RDF. In order to be properly specified, we need to plan how the information will be represented. In order to fit the Linked Open Data paradigm described in \ref{sec:intro}, all referred entities must be designated using a Uniform Resource Identifier (URI). Each URI needs to be resolvable over HTTP; that is, they need to be able to be looked up and referred to by a web page. This is the base URI structure. Vocabulary elements - what constitutes the language used to refer to different objects from this base URI - must also be defined, just as instances - particular cases of an element - need to be. The finished specification for our data set - which, at heart, is little more than the links needed to refer to the data once it is loaded into an ontology online, is described below. 
+The process of publishing Linked Data has an iterative incremental life cycle model. Data sources must be identified and analyzed and entities in the data must be assigned a URI. A key element of Linked Data is also the ability to reuse and leverage data that has already been published as Linked Data. By identifying the schema of resources that are to be transformed into Linked Data, conceptual components and their relationships can be properly modeled into the RDF triple format. In the Dogon GPS spreadsheet, we were able to identify fields such as language name, ISO 639-3 code, language family and subfamily, alternative languages spoken in each village, village names, municipality, notes about the speaker's society, and geospatial information and assign them a URI. See Fig.\ \ref{spreadsheet}.
 
-%Boris, this doesn't seem to be accessible at the moment. Thoughts?
+\begin{figure*}[b!hpt]
+\caption{Data that contains villages in Mali with language information}\label{spreadsheet}
+\includegraphics[width=15cm]{img/spreadsheet.png}
+\end{figure*}
 
-\subsubsection{URI design}
-All the resources in our dataset are defined using a URI. URIs have been designed with simplicity, stability and manageability in mind, following common guidelines for their effective use\footnote{\url{http://www.w3.org/TR/cooluris/}},\footnote{\url{http://www.w3.org/Provider/Style/URI}}, \footnote{\url{http://www.w3.org/TR/chips/}}. 
+All resources in the dataset are given dereferenceable URIs and we've attempted to use meaningful names instead of opaque ones. We also reuse URIs where we can, including using the General Ontology of Linguistic Description (GOLD) for morphosyntactic data descriptions \cite{farrar2003linguistic}.\footnote{ \url{http://linguistics-ontology.org/}.} The base URI structure uses the \surl{http://linguistic.linkeddata.es/} namespace. Vocabulary elements are appended with \surl{/ontology/{property|class}} and instances with \surl{/dataset/resource/{r. type|r. name}}. We also reused URIs from the WGS84 Geo Basic Vocabulary for the representation of geospatial data.\footnote{\url{http://www.w3.org/2003/01/geo/}} 
 
-\subsubsection{Base URI structure}
+\subsection{RDF Generation}
+Next, the spreadsheet data was transformed into RDF. First we imported the spreadsheet into MySQL. Then we defined a set of R2RML mappings. R2RML is a RDF-to-RDF mapping language and we used it to creat mappings between elements in the MySQL database table from the spreadsheet and the RDF vocabulary that we defined.\footnote{\url{http://www.w3.org/TR/r2rml/}} Lastly, using the R2RML engine and morph,\footnote{\url{https://github.com/boricles/morph}} we generated the RDF instances using the R2RML defined mappings.
 
-\noindent\surl{http://linguistic.linkeddata.es/}
-%This is a just an index to the web page. Unless that's what you mean to show? 
+\subsection{Publication}\label{sec:pub}
+The RDF data that we generated is stored in a triple store with the Virtuoso software, which we use to publish the data online.\footnote{\url{http://virtuoso.openlinksw.com/}} Integrated with Pubby,\footnote{\url{http://www4.wiwiss.fu-berlin.de/pubby/}} Virtuoso allows us to leverage content management to serve up machine-readable and human consumable webpages that contain information about each village, such as which languages are spoken there, where the village is located, additional information about the society, etc.\footnote{See for example the page on the village Boni: \url{http://linguistic.linkeddata.es/page/mlode/resource/Village/Boni}.} Virtuoso also provides a SPARQL endpoint with which we can query and share the data.
 
-\subsubsection{Vocabulary elements}
+% Virtuoso integrates with Pubby\footnote{\url{http://www4.wiwiss.fu-berlin.de/pubby/}} to publish the results - Pubby is a fronted for endpoints, allowing users to query the data in the Virtuoso server using the SPARQL query language. Once Virtuoso and Pubby are running on data that has been loaded in using the R2RML engine, all of the data is essentially available for humans and computers to read. At this point the data, if it has been specified correctly, if the URIs are HTTP resolvable and if the vocabulary followed set standards, the process of lifting data into the Semantic Web is practically done.  What's left is actually exploiting this data. 
 
-\noindent\surl{http://linguistic.linkeddata.es/ontology/{property|class}} \\
+% The generated RDF was then stored in Virtuoso\footnote{\url{http://virtuoso.openlinksw.com/}} open source version. Virtuoso is essentially the server, allowing the RDF data loaded in the Generation step above to be queried using an endpoint. Virtuoso integrates with Pubby\footnote{\url{http://www4.wiwiss.fu-berlin.de/pubby/}} to publish the results - Pubby is a fronted for endpoints, allowing users to query the data in the Virtuoso server using the SPARQL query language. Once Virtuoso and  Pubby are running on data that has been loaded in using the R2RML engine, all of the data is essentially available for humans and computers to read. At this point the data, if it has been specified correctly, if the URIs are HTTP resolvable and if the vocabulary followed set standards, the process of lifting data into the Semantic Web is practically done.  What's left is actually exploiting this data. 
 
-\noindent For example: \\
-\surl{http://linguistic.linkeddata.es/ontology/officialName}
-%This doesn't work. 
-
-\subsubsection{Instances}
-
-\noindent\surl{http://linguistic.linkeddata.es/dataset/resource/{r. type|r. name}}\\
-
-\noindent For example: \\
-\surl{http://linguistic.linkeddata.es/mlode/Village/Sokoura}
-% This doesn't work. 
-
-\subsection{Modelling}
-The development of the linguistics vocabulary, which covers the linguistic information stored in the resources described in section \ref{sec:lr}, was performed following an iterative approach based on the reuse of existing knowledge management resources for linguistics. In a nutshell we have reused the following vocabularies: 
-\begin{itemize}
-	\item GOLD\footnote{\url{http://linguistic-ontology.org}}, an ontology for descriptive linguistics.
-	\item WGS84 Geo Basic Vocabulary\footnote{\url{http://www.w3.org/2003/01/geo/}}, for representing the geospatial data.	 
-\end{itemize} 
-
-Nevertheless, it was necessary to create some of our own terms. However, this work was largely trivial. %Right? Otherwise, we need to describe this. I'm not sure what the development of vocabulary has to do with anything. What does this mean? This isn't geared towards new researchers. 
-
-\subsection{Generation}
-Next, the RDF was generated within three main phases. This is the process by which the spreadsheet turns into a useable resource. Here, we describe each one of these phases:
-
-\begin{enumerate}
-	\item Importing the spreadsheet into MySQL database by using the MySQL importing tool.
-	\item Defining a set of R2RML\footnote{R2RML is a standard RDB2RDF mapping language \url{http://www.w3.org/TR/r2rml/}} mappings among the MySQL database and RDF vocabulary elements.
-	\item Executing the R2RML engine, morph\footnote{\url{https://github.com/boricles/morph}}, for generating the RDF instances from the MySQL database data by using the defined R2RML mappings.  
-\end{enumerate}
+\subsection{Exploitation}
+Following the previous steps of specification, RDF generation and publication, we expose the RDF data, enhanced with GPS coordinates, using map4rdf.\footnote{\url{https://github.com/boricles/linked-data-visualization-tools}} map4rdf is a maps viewer of RDF resources with geometrical information built on OpenStreetMap\footnote{\url{http://www.openstreetmap.org/}} and it can be used to visualize information in RDF datasets. Additionally, it is extensible with Google app plugins. The parameters of map4rdf must be set so that the application knows where to locate the endpoint of Dogon data in RDF (that we set up with Virutoso) and which geometry model that we are using (since there different standards for geo-mapping). With the parameters set, a user can open the map4rdf application in his or her web browser and explore the location of villages where Dogon are spoken.\footnote{The map4rdf instantiation for the Dogon villages resides at: \url{http://geo.linkeddata.es/map4rdf-dogon/}.} Fig.\ \ref{fig:map4rdf} provides an illustration.
 
 \begin{figure*}[htb!p]
 \centering
@@ -66,12 +39,25 @@ Next, the RDF was generated within three main phases. This is the process by whi
 \label{fig:map4rdf}
 \end{figure*}
 
-\subsection{Publication}\label{sec:pub}
-The generated RDF was then stored in Virtuoso\footnote{\url{http://virtuoso.openlinksw.com/}} open source version. Virtuoso is essentially the server, allowing the RDF data loaded in the Generation step above to be queried using an endpoint. Virtuoso integrates with Pubby\footnote{\url{http://www4.wiwiss.fu-berlin.de/pubby/}} to publish the results - Pubby is a fronted for endpoints, allowing users to query the data in the Virtuoso server using the SPARQL query language. Once Virtuoso and  Pubby are running on data that has been loaded in using the R2RML engine, all of the data is essentially available for humans and computers to read. At this point the data, if it has been specified correctly, if the URIs are HTTP resolvable and if the vocabulary followed set standards, the process of lifting data into the Semantic Web is practically done.  What's left is actually exploiting this data. 
+Each point on the map comes from GPS coordinates in the original spreadsheet, which have been transformed into RDF triples and stored in a triple store with Virtuoso. This triple store can be queried with SPARQL or its endpoint can be given as an endpoint for programs like map4rdf to access its data contents.  Each pin in Fig.\ \ref{fig:map4rdf} can be clicked on, showing the village name, its latitude and longitude, and a link for more information about the language. This is shown in Fig.\ \ref{pin.png}.
 
-\subsection{Exploitation}
-The resultant dataset, following the previous steps, exposes the linguistics resources we first described enhanced with geospatial information, allowing for queries that otherwise require a lot of time by just looking at the original files. However, the data still hasn't been mapped - at best, SPARQL will return triples for any query. 
+\begin{figure*}[htb!p]
+\centering
+%\includegraphics[scale=0.45]{IMGS/detalle_bn.png}
+%\includegraphics[width=0.70\textwidth]{IMGS/detalle.pdf}
+\includegraphics[width=0.99\textwidth]{img/pin.png}
+\caption{Clicking on a pin}
+\label{pin.png}
+\end{figure*}
 
-However, by extending the queries presented previously, we have built an application\footnote{\url{http://geo.linkeddata.es/map4rdf-dogon/}} for showing each of the Dogon villages on the map by using the tool map4rdf\footnote{\url{https://github.com/boricles/linked-data-visualization-tools}} \cite{deLeon_2012}. Figure \ref{fig:map4rdf} shows the application. At this point, each of the data points can be visualised. 
+When clicking on the link for more information, a request is sent to the SPARQL endpoint for all information in the RDF triple store about that particular village. When accessing the data through map4rdf, the endpoint knows through content management to return an HTML page that displays the query results, as shown in Fig.\ \ref{more_information.png}.
 
+\begin{figure*}[htb!p]
+\centering
+%\includegraphics[scale=0.45]{IMGS/detalle_bn.png}
+%\includegraphics[width=0.70\textwidth]{IMGS/detalle.pdf}
+\includegraphics[width=0.99\textwidth]{img/more_information.png}
+\caption{More information about a village}
+\label{more_information.png}
+\end{figure*}
 

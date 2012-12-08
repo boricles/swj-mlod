@@ -1,30 +1,3 @@
-%
-%Richard's hackday project aimed at querying the LLOD via ISO 639-3
-%code. At that time, these queries worked (see below for several of
-%them). Now they don't seem to return anything (hence I haven't
-%included them in the MLODE hack day results). There might be some
-%fairly obvious reason for them not working, but I'm not sure what it
-%is. I do remember that at one point the URL or the endpoint or
-%something was changed for some reasons (hosting was with Pablo's
-%group?).
-%I do think though that the ability to query LLOD for resources via
-%language code, etc., is a very, very strong selling point for the data
-%post-proceedings and for the LLOD cloud in general. We aren't going to
-%get any serious users (do we currently have any users?) beyond the
-%Leipzig group (and perhaps some others), if it's not functioning (or
-%if we can't explain how to use it since what was once working no
-%longer works).
-%
-%It would be great to get such "exploratory" data queries working and I
-%know Richard and a few others want to submit something to the data
-%post-proceedings on exactly that.
-
-%ENDPOINT: http://mlode-sparql.nlp2rdf.org/sparql
-
-% The amount of computational linguistic resources available has grown considerably in recent years. This is true of both primary resources -- audio corpora, dictionaries, ontologies -- and secondary resources - parsers, segmenters, WordNets. However, limited interoperability and licensing constraints between primary resources are major obstacles for data use and reuse. Interoperability can be either structural, apparent when similar formalisms are used to access data, or conceptual, where the resources themselves share a common vocabulary \citep{ide-pustejovsky2010-interoperability}. Representing data so that they conform to the paradigms and languages of the Semantic Web fosters interoperability for resources, as well as providing an infrastructure with a vibrant development community that can be used to query these resources.
-
-The amount of linguistic resources available on the Web has grown considerably in recent years. This is true of both data resources, such as lexical data, multimedia recordings and annotated corpora, as well as for computational tools cleaning and analysis, such as chunkers, part of speech taggers and parsers. However, limited interoperability between data formats and data licensing constraints are major obstacles for data use, reuse and sharing. Representing data so that they conform to the Semantic Web framework fosters interoperability of resources, as well as providing an infrastructure with a vibrant development community that can be used to query these resources. Linked Data refers to Semantic Web framework best practices for publishing and connecting structured data. One initiative to share openly available data published in Linked Data is called Linked Open Data.
-
-% Interoperability can be either structural, apparent when similar formalisms are used to access data, or conceptual, where the resources themselves share a common vocabulary \citep{ide-pustejovsky2010-interoperability}. 
+The amount of linguistic resources available on the Web has grown considerably in recent years. This is true of both data resources, such as lexical data, multimedia recordings and annotated corpora, as well as for computational tools for cleaning and analysis, such as chunkers, part of speech taggers and parsers. However, limited interoperability between data formats and data licensing constraints are major obstacles for data use, reuse and sharing. Representing data so that they conform to the Semantic Web framework fosters interoperability of resources, as well as providing an infrastructure with a vibrant development community that can be used to query these resources. Linked Data refers to Semantic Web framework best practices for publishing and connecting structured data. One initiative to share openly available data published in Linked Data is called Linked Open Data.
 
 The Linguistic Linked Open Data (LLOD) cloud\footnote{\url{http://linguistics.okfn.org/resources/llod/}} is a sub-cloud of the Linked Open Data cloud,\footnote{\url{http://richard.cyganiak.de/2007/10/lod/}} consisting of data from databases of linguistic corpora and metadata that conforms to the Linked Open Data paradigm \citep{bernersLee2006_linkeddata}. This cloud is being developed by the Open Linguistics Working Group (OWLG) \cite{owlg4lrec}, an open community that aims to promote open data in linguistics and that facilitates communication between researchers from different scientific disciplines and communities. The LLOD  contains data from dozens of publicly available online databases that have been converted to RDF. Here, we briefly outline the technologies behind the LLOD (described at length elsewhere, cf. \cite{ldl-llod, ChiarcosLOD}), and, for the first time we discuss accessing data in the LLOD through a SPARQL endpoint set up during the Multilingual Linked Open Data for Enterprises workshop. We provide a couple of examples of how to use the endpoint to query across resources linked in the LLOD. The first query displays all resources within the cloud that have information related to a language-specific ISO 639-3 three letter language name identifier. Once data sources that contain information about a given language are identified, each data source can then be further queried for detailed information regarding that given language. Our second example query identifies the typological features of a given language that are available in the World Atlas of Language Structures (WALS) \citep{Haspelmath_etal2008}. We conclude by briefly discussing the possible applications of querying the LLOD cloud for linguistic analysis and its potential use to language researchers. 
