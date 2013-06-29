@@ -1,18 +1,26 @@
-% Journal:
-%   Journal of Ambient Intelligence and Smart Environments (JAISE), IOS Press
-%   Web Intelligence and Agent Systems: An International Journal (wias)
-%   Semantic Web: Interoperability, Usability, Applicability (SW)
-% Latex 2e
-% Test file iosart2c.tex
+%
+% File acl2013.tex
+%
+% Contact  navigli@di.uniroma1.it
+%%
+%% Based on the style files for ACL-2012, which were, in turn,
+%% based on the style files for ACL-2011, which were, in turn, 
+%% based on the style files for ACL-2010, which were, in turn, 
+%% based on the style files for ACL-IJCNLP-2009, which were, in turn,
+%% based on the style files for EACL-2009 and IJCNLP-2008...
 
-%[seceqn,secfloat,secthm,crcready]
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
 
-% options: wias, jaise, sw
-\documentclass{iosart2c}
-
-
-\usepackage[T1]{fontenc}
+\documentclass[11pt]{article}
+\usepackage{acl2013}
 \usepackage{times}%
+
+\usepackage{url}
+\usepackage{latexsym}
+%\setlength\titlebox{6.5cm}    % You can expand the title box if you
+% really have to
 
 \usepackage{natbib}
 %\usepackage[dvips]{hyperref}
@@ -23,43 +31,42 @@
 \newcommand{\surl}[1]{{\small\url{#1}}}
 \usepackage{graphicx}
 
-\newcolumntype{d}[1]{D{.}{.}{#1}}
+\title{Linguistic Resources Enhanced with Geospatial Information}
 
+\author{Richard Littauer \\
+Department of Intelligent Computer Systems \\
+University of Malta \\ 
+Msida, MSD2080, Malta \\
+  {\tt richard.littauer@gmail.com} \\\And
+  Boris Villazon-Terrazas \\
+  Intelligent Software Components \\
+   iSOCO, S.A., Av. del Partenon 16-18 \\
+   Madrid, Spain\\
+{\tt bvillazon@isoco.com} \\\And
+Steven Moran \\
+Department of Linguistics \\
+ University of Z\"urich \\
+  Plattenstrasse 54, CH-8032 Z\"urich, Switzerland \\
+  {\tt steve.moran@lmu.de} \\}
 
-\firstpage{1} \lastpage{5} \volume{1} \pubyear{2009}
+%\author[A,B]{\fnms{Richard} \snm{Littauer}},
+%\author[C]{\fnms{Boris} \snm{Villazon-Terrazas}}
+%and
+%\author[D,E]{\fnms{Steven} \snm{Moran}}
+%\runningauthor{Littauer, Villazon-Terrazas and Moran}
 
+%\address[A]{Department of Intelligent Computer Systems, University of Malta, Msida, MSD2080, Malta}
+%\address[B]{Computational Linguistics Department, Saarland University, Saarbr\"ucken, 66121, Germany\\  E-mail: littauer@coli.uni-saarland.de}
+%\address[C]{Intelligent Software Components, iSOCO, S.A., Av. del Partenon 16-18, Madrid, Spain\\
+%E-mail: bvillazon@isoco.com}
+%\address[D]{Department of Linguistics, University of Z\"urich, Plattenstrasse 54, CH-8032 Z\"urich, Switzerland} 
+%\address[E]{Research Unit Quantitative Language Comparison, Ludwig Maximilian University, Geschwister Scholl Platz 1, D-80539 Munich, Germany\\ 
+%E-mail: steve.moran@lmu.de}
+
+\date{}
 
 \begin{document}
-\begin{frontmatter}                           % The preamble begins here.
-
-% CHANGE AS SUITED - RL.
-%\pretitle{Pretitle}
-% Linguistics Linked Data Life Cycle for 
-\title{Linguistic Resources Enhanced with Geospatial Information %\thanks{Footnote in title.}
-}
-
-\runningtitle{Linguistic Resources enhanced with Geospatial Information}
-%\subtitle{Subtitle}
-
-%\review{Name Surname, University, Country}{Name Surname, University, Country}{Name Surname, University, Country}
-
-\author[A,B]{\fnms{Richard} \snm{Littauer}},
-\author[C]{\fnms{Boris} \snm{Villazon-Terrazas}}
-and
-\author[D,E]{\fnms{Steven} \snm{Moran}}
-\runningauthor{Littauer, Villazon-Terrazas and Moran}
-
-%\address[A]{Journal Production Department, IOS Press, Nieuwe Hemweg 6b, 1013 BG, Amsterdam,\\ The Netherlands\\ E-mail: first@somewhere.com}
-%\address[B]{Department first, then University or Company name, Insert a complete correspondence (mailing) address, Abbreviate US states, Include country\\ E-mail: \{second,third\}@somewhere.com}
-\address[A]{Department of Intelligent Computer Systems, University of Malta, Msida, MSD2080, Malta}
-\address[B]{Computational Linguistics Department, Saarland University, Saarbr\"ucken, 66121, Germany\\  E-mail: littauer@coli.uni-saarland.de}
-\address[C]{Intelligent Software Components, iSOCO, S.A., Av. del Partenon 16-18, Madrid, Spain\\
-E-mail: bvillazon@isoco.com}
-\address[D]{Department of Linguistics, University of Z\"urich, Plattenstrasse 54, CH-8032 Z\"urich, Switzerland} 
-\address[E]{Research Unit Quantitative Language Comparison, Ludwig Maximilian University, Geschwister Scholl Platz 1, D-80539 Munich, Germany\\ 
-E-mail: steve.moran@lmu.de}
-
-
+\maketitle
 \begin{abstract}
 
 In this short report on language data and RDF tools, we describe the transformation process that we undertook to convert spreadsheet data about a group of endangered languages and where they are spoken in West Africa into an RDF triple store. We use RDF tools to organize and visualize these data on a world map, accessible through a web browser. The functionality we develop allows researchers to see where these languages are spoken and to query the language data. This type of development not only showcases the power of RDF, but it provides a powerful tool for linguists trying the solve the mysteries of the genealogical relatedness of the Dogon languages.
@@ -68,12 +75,10 @@ In this short report on language data and RDF tools, we describe the transformat
 %The abstract should be clear, descriptive, self-explanatory and no longer than 200 words. It should alsobe suitable for publication in abstracting services. Do not include references or formulae in the abstract.
 \end{abstract}
 
-\begin{keyword}
-Semantic Web\sep Linked Data\sep LLOD\sep Linguistics\sep Typology\sep Language Resources\sep Geospatial Mapping
-%Keyword one\sep keyword two\sep keyword three\sep keyword four\sep keyword five
-\end{keyword}
-
-\end{frontmatter}
+%\begin{keyword}
+%Semantic Web\sep Linked Data\sep LLOD\sep Linguistics\sep Typology\sep Language Resources\sep Geospatial Mapping
+%%Keyword one\sep keyword two\sep keyword three\sep keyword four\sep keyword five
+%\end{keyword}
 
 %http://www.slideshare.net/boricles/linguistic-resources-enhanced-with-geospatial-information
 
@@ -92,7 +97,7 @@ Semantic Web\sep Linked Data\sep LLOD\sep Linguistics\sep Typology\sep Language 
 \section{Summary}
 \input{gs_conc}
 
-\bibliographystyle{abbrv}
+\bibliographystyle{acl}
 \bibliography{bib.bib}
 
 \end{document}
