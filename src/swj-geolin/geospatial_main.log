@@ -1,25 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  8 SEP 2013 20:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.13)  19 SEP 2013 17:32
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
 **geospatial_main.tex
-(./geospatial_main.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
- icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
-iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
- lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
-ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
-ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
-.
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
+
+(C:\Users\bvillazon\Documents\GitHub\swj-mlod\src\swj-geolin\geospatial_main.te
+x
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\develop\tools\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size11.clo
+("C:\develop\tools\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -33,47 +31,48 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./acl2013.sty
+)
+(C:\Users\bvillazon\Documents\GitHub\swj-mlod\src\swj-geolin\acl2013.sty
 Conference Style for ACL 2005 -- released Octobe 11, 2004
 \titlebox=\skip43
-) (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/times.sty
+) ("C:\develop\tools\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/latexsym.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/natbib/natbib.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count87
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -114,10 +113,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/dcolumn.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\tools\dcolumn.sty"
 Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/array.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen112
 \extrarowheight=\dimen113
@@ -125,74 +124,57 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip49
 \backup@length=\skip50
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\develop\tools\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\develop\tools\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+("C:\develop\tools\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+("C:\develop\tools\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\develop\tools\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks20
 )
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
-(./geospatial_main.aux
-
-./geospatial_main.aux:32: Package natbib Error: Bibliography not compatible wit
-h author-year citations.
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 ...mand\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
-)
-\openout1 = `geospatial_main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 71.
- (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(C:\Users\bvillazon\Documents\GitHub\swj-mlod\src\swj-geolin\geospatial_main.au
+x)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 70.
+ ("C:\develop\tools\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\develop\tools\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
 \scratchdimen=\dimen116
@@ -205,83 +187,89 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \MPnumerator=\count105
 \makeMPintoPDFobject=\count106
 \everyMPtoPDFconversion=\toks22
-) (/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
-))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
-
-(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 72.
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ulasy.fd
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 71.
+ ("C:\develop\tools\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 72.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 71.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+("C:\develop\tools\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) (./gs_intro.tex) (./gs_relwork.tex) [1{/usr/local/texlive/2011/texmf-var/font
-s/map/pdftex/updmap/pdftex.map}
+)
+Underfull \hbox (badness 7362) in paragraph at lines 71--71
+[][] \OT1/ptm/m/n/9 In-tel-li-gent Soft-ware Com-po-nents, iSOCO, S.A.
+ []
 
-
-
-] (./gs_langeo.tex
+(C:\Users\bvillazon\Documents\GitHub\swj-mlod\src\swj-geolin\gs_intro.tex)
+(C:\Users\bvillazon\Documents\GitHub\swj-mlod\src\swj-geolin\gs_relwork.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+
+
+Package natbib Warning: Citation `Rohrdantz:2012' on page 1 undefined on input 
+line 12.
+
+
+Package natbib Warning: Citation `RMB+10' on page 1 undefined on input line 12.
+
+
+
+Package natbib Warning: Citation `LittEACL' on page 1 undefined on input line 1
+2.
+
+
+Package natbib Warning: Citation `theron' on page 1 undefined on input line 12.
+
+
+
+Package natbib Warning: Citation `Haspelmath_etal2008' on page 1 undefined on i
+nput line 12.
+
+
+Package natbib Warning: Citation `10.1371/journal.pone.0023613' on page 1 undef
+ined on input line 12.
+
+
+Package natbib Warning: Citation `Bendor-Samuel_etal1989' on page 1 undefined o
+n input line 14.
+
+
+Package natbib Warning: Citation `Blench2005' on page 1 undefined on input line
+ 14.
+
+) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+]
+(C:\Users\bvillazon\Documents\GitHub\swj-mlod\src\swj-geolin\gs_langeo.tex
+
+Package natbib Warning: Citation `Villazon_2011' on page 2 undefined on input l
+ine 2.
+
+
+Package natbib Warning: Citation `Haspelmath_etal2008' on page 2 undefined on i
+nput line 6.
+
 
 Underfull \vbox (badness 2253) has occurred while \output is active []
 
 
-<img/spreadsheet.png, id=11, 803.0pt x 341.275pt>
+<img/spreadsheet.png, id=10, 803.0pt x 341.275pt>
 File: img/spreadsheet.png Graphic file (type png)
  <use img/spreadsheet.png>
 Package pdftex.def Info: img/spreadsheet.png used on input line 15.
 (pdftex.def)             Requested size: 426.79134pt x 181.39041pt.
+
+
+Package natbib Warning: Citation `farrar2003linguistic' on page 2 undefined on 
+input line 18.
+
 
 Underfull \hbox (badness 1546) in paragraph at lines 18--19
 \OT1/ptm/m/n/10.95 er-ence-able URIs and we've at-tempted to use
@@ -294,7 +282,7 @@ Underfull \hbox (badness 1748) in paragraph at lines 21--22
 
 [2]
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[][]$\OT1/pcr/m/n/9 http : / / www4 . wiwiss . fu-[]berlin . de /
+[][]$\OT1/pcr/m/n/9 http : / / www4 . wiwiss . fu-[]berlin . de /$
  []
 
 
@@ -304,17 +292,17 @@ Underfull \hbox (badness 4543) in paragraph at lines 24--24
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/pcr/m/n/9 hhttp : / / linguistic . linkeddata . es / mlode /
+$\OT1/pcr/m/n/9 hhttp : / / linguistic . linkeddata . es / mlode /$
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[][]$\OT1/pcr/m/n/9 http : / / linguistic . linkeddata . es /
+[][]$\OT1/pcr/m/n/9 http : / / linguistic . linkeddata . es /$
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[][]$\OT1/pcr/m/n/9 https : / / github . com / boricles /
+[][]$\OT1/pcr/m/n/9 https : / / github . com / boricles /$
  []
 
 
@@ -325,7 +313,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--31
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
 \OT1/ptm/m/n/9 lages re-sides at: $\OT1/pcr/m/n/9 http : / / geo . linkeddata .
- es /
+ es /$
  []
 
 
@@ -333,96 +321,177 @@ Underfull \hbox (badness 1642) in paragraph at lines 31--32
 \OT1/ptm/m/n/10.95 Following the pre-vi-ous steps of spec-i-fi-ca-tion,
  []
 
-<img/map4rdf.png, id=15, 1283.79625pt x 560.0925pt>
+<img/map4rdf.png, id=14, 1283.79625pt x 560.0925pt>
 File: img/map4rdf.png Graphic file (type png)
  <use img/map4rdf.png>
 Package pdftex.def Info: img/map4rdf.png used on input line 37.
 (pdftex.def)             Requested size: 450.69414pt x 196.625pt.
 
-<img/pin.png, id=16, 429.605pt x 214.8025pt>
+<img/pin.png, id=15, 429.605pt x 214.8025pt>
 File: img/pin.png Graphic file (type png)
  <use img/pin.png>
 Package pdftex.def Info: img/pin.png used on input line 48.
 (pdftex.def)             Requested size: 450.69414pt x 225.34933pt.
 
-<img/more_information.png, id=17, 751.80875pt x 348.30125pt>
+<img/more_information.png, id=16, 751.80875pt x 348.30125pt>
 File: img/more_information.png Graphic file (type png)
 
 <use img/more_information.png>
 Package pdftex.def Info: img/more_information.png used on input line 59.
 (pdftex.def)             Requested size: 450.69414pt x 208.80167pt.
-) (./gs_conc.tex
+)
+(C:\Users\bvillazon\Documents\GitHub\swj-mlod\src\swj-geolin\gs_conc.tex
+
+Package natbib Warning: Citation `Haspelmath_etal2008' on page 3 undefined on i
+nput line 2.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
-[][]$\OT1/pcr/m/n/9 http : / / mlode-[]sparql . nlp2rdf . org /
+[][]$\OT1/pcr/m/n/9 http : / / mlode-[]sparql . nlp2rdf . org /$
  []
 
-) [3 <./img/spreadsheet.png>] [4 <./img/map4rdf.png> <./img/pin.png>]
-(./geospatial_main.bbl
-Underfull \hbox (badness 1286) in paragraph at lines 16--20
-[]\OT1/ptm/m/n/10.95 A. de Le[]on, F. Wis-niewki, B. Vil-laz[]on-
- []
+) [3 <C:/Users/bvillazon/Documents/GitHub/swj-mlod/src/swj-geolin/img/spreadshe
+et.png>] [4 <C:/Users/bvillazon/Documents/GitHub/swj-mlod/src/swj-geolin/img/ma
+p4rdf.png> <C:/Users/bvillazon/Documents/GitHub/swj-mlod/src/swj-geolin/img/pin
+.png>]
+(C:\Users\bvillazon\Documents\GitHub\swj-mlod\src\swj-geolin\geospatial_main.bb
+l
+Runaway argument?
+E.~J. Olsen, and A.~R. White. \newblock 1989. \newblock {Dogon}. \newblock \ETC
+.
+! Paragraph ended before \NAT@apalk was complete.
+<to be read again> 
+                   \par 
+l.11 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
+Runaway argument?
+26:14--15. 
+! Paragraph ended before \NAT@apalk was complete.
+<to be read again> 
+                   \par 
+l.17 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-Underfull \hbox (badness 1681) in paragraph at lines 27--30
-[]\OT1/ptm/m/n/10.95 M. Haspel-math, M. Dryer, D. Gil, and
- []
+Runaway argument?
+7:97--100. 
+! Paragraph ended before \NAT@apalk was complete.
+<to be read again> 
+                   \par 
+l.23 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-[5 <./img/more_information.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
-[]\OT1/ptm/m/n/10.95 C. Rohrdantz, M. Hund, T. Mayer,
- []
+Runaway argument?
+M.~Dryer, D.~Gil, and B.~Comrie, editors. \newblock 2008. \newblock {\ETC.
+! Paragraph ended before \NAT@apalk was complete.
+<to be read again> 
+                   \par 
+l.30 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
+Runaway argument?
+Rory Turnbull, and Alexis Palmer. \newblock 2012. \newblock Visualisi\ETC.
+! Paragraph ended before \NAT@apalk was complete.
+<to be read again> 
+                   \par 
+l.38 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-Underfull \hbox (badness 4279) in paragraph at lines 39--43
-\OT1/ptm/m/n/10.95 lan-guages ex-plorer: Vi-sual anal-y-sis of
- []
+Runaway argument?
+Thompsonas Mayer, Miriam Butt, Frans Plank, and Daniel~A. Keim. \newblock \ETC.
+! Paragraph ended before \NAT@apalk was complete.
+<to be read again> 
+                   \par 
+l.48 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
+Runaway argument?
+Michael Hund, Thomas Mayer, Bernhard W\"alchli, and Daniel~A. Keim. \newblock \
+ETC.
+! Paragraph ended before \NAT@apalk was complete.
+<to be read again> 
+                   \par 
+l.57 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--43
-\OT1/ptm/m/n/10.95 lan-guage fea-tures in ge-nealog-i-cal and
- []
+Runaway argument?
+L.~Fontanillo, A.~Esteban, and C.~Seguín. \newblock 2011. \newblock V\ETC.
+! Paragraph ended before \NAT@apalk was complete.
+<to be read again> 
+                   \par 
+l.64 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
+Runaway argument?
+Luis Vilches-Bl\'{a}zquez, Oscar Corcho, and Asunci\'{o}n G\'{o}mez-P\ETC.
+! Paragraph ended before \NAT@apalk was complete.
+<to be read again> 
+                   \par 
+l.74 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-Underfull \hbox (badness 3068) in paragraph at lines 39--43
-\OT1/ptm/m/n/10.95 areal con-texts.  \OT1/ptm/m/it/10.95 Comp. Graph. Fo-rum\OT
-1/ptm/m/n/10.95 ,
- []
+Runaway argument?
+John Nerbonne, and R.~Harald Baayen. \newblock 2011. \newblock Quanti\ETC.
+! Paragraph ended before \NAT@apalk was complete.
+<to be read again> 
+                   \par 
+l.82 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
+)
 
-Underfull \hbox (badness 1874) in paragraph at lines 45--51
-\OT1/ptm/m/n/10.95 y-sis of cross-linguistic fea-ture-tures.  In
- []
+Package natbib Warning: There were undefined citations.
 
-Missing character: There is no í in font ptmr7t!
-Missing character: There is no ü in font ptmri7t!
-Missing character: There is no í in font ptmri7t!
-
-Underfull \hbox (badness 2903) in paragraph at lines 59--65
-\OT1/ptm/m/n/10.95 olog-i-cal Guide-lines for Pub-lish-ing Gov-
- []
-
-) [6
-
-] (./geospatial_main.aux) ) 
+[5 <C:/Users/bvillazon/Documents/GitHub/swj-mlod/src/swj-geolin/img/more_inform
+ation.png>]
+(C:\Users\bvillazon\Documents\GitHub\swj-mlod\src\swj-geolin\geospatial_main.au
+x) ) 
 Here is how much of TeX's memory you used:
- 2757 strings out of 493633
- 37223 string characters out of 3143378
- 104009 words of memory out of 3000000
- 5977 multiletter control sequences out of 15000+200000
- 25915 words of font info for 63 fonts, out of 3000000 for 9000
- 831 hyphenation exceptions out of 8191
- 37i,12n,23p,1969b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/
-base/8r.enc}</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy6.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-</usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
-l/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
-2011/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on geospatial_main.pdf (6 pages, 1133076 bytes).
+ 2422 strings out of 493921
+ 31676 string characters out of 3147270
+ 95000 words of memory out of 3000000
+ 5669 multiletter control sequences out of 15000+200000
+ 24231 words of font info for 61 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,12n,22p,1969b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/develop/tools/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/develop/to
+ols/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/develop/tools/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/develop/tools/MiKTeX 2.9/fon
+ts/type1/urw/courier/ucrr8a.pfb><C:/develop/tools/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmb8a.pfb><C:/develop/tools/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on geospatial_main.pdf (5 pages, 1121078 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,72 +1,83 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{Bendor-Samuel_etal1989}
+\bibitem[\protect\citename{Bendor-Samuel \bgroup et al.\egroup
+  }1989]{Bendor-Samuel_etal1989}
 J.~Bendor-Samuel, E.~J. Olsen, and A.~R. White.
+\newblock 1989.
 \newblock {Dogon}.
 \newblock In J.~Bendor-Samuel, editor, {\em The Niger-Congo Languages--A
   Classification and Description of Africa's Largest Language Family}, pages
-  169--177. University Press of America, Lanham, Maryland, 1989.
+  169--177. University Press of America, Lanham, Maryland.
 
-\bibitem{Blench2005}
-R.~Blench.
+\bibitem[\protect\citename{Blench}2005]{Blench2005}
+Roger Blench.
+\newblock 2005.
 \newblock {A survey of Dogon languages in Mali: overview}.
-\newblock {\em OGMIOS}, 26:14--15, 2005.
+\newblock {\em OGMIOS}, 26:14--15.
 
-\bibitem{deLeon_2012}
-A.~de~Le\'on, F.~Wisniewki, B.~Villaz\'on-Terrazas, and O.~Corcho.
-\newblock {Map4rdf - Faceted Browser for Geospatial Datasets}.
-\newblock In {\em {Proceedings of the First Workshop on USING OPEN DATA}}. W3C,
-  June 2012.
-
-\bibitem{farrar2003linguistic}
+\bibitem[\protect\citename{Farrar and Langendoen}2003]{farrar2003linguistic}
 S.~Farrar and D.~T. Langendoen.
+\newblock 2003.
 \newblock {A Linguistic Ontology for the Semantic Web}.
-\newblock {\em GLOT International}, 7:97--100, 2003.
+\newblock {\em GLOT International}, 7:97--100.
 
-\bibitem{Haspelmath_etal2008}
+\bibitem[\protect\citename{Haspelmath \bgroup et al.\egroup
+  }2008]{Haspelmath_etal2008}
 M.~Haspelmath, M.~Dryer, D.~Gil, and B.~Comrie, editors.
+\newblock 2008.
 \newblock {\em The {World Atlas of Language Structures} Online}.
-\newblock Max Planck Digital Library, Munich, 2008.
+\newblock Max Planck Digital Library, Munich.
 
-\bibitem{LittEACL}
-R.~Littauer, R.~Turnbull, and A.~Palmer.
+\bibitem[\protect\citename{Littauer \bgroup et al.\egroup }2012]{LittEACL}
+Richard Littauer, Rory Turnbull, and Alexis Palmer.
+\newblock 2012.
 \newblock Visualising typological relationships: Plotting wals with heat maps.
 \newblock In {\em Proceedings of the EACL 2012 Workshop on the Visualization of
-  Linguistic Patterns}, page~4, Avignon, France, April 2012. Association for
+  Linguistic Patterns}, page~4, Avignon, France, April. Association for
   Computational Linguistics.
 
-\bibitem{Rohrdantz:2012}
-C.~Rohrdantz, M.~Hund, T.~Mayer, B.~W\"alchli, and D.~A. Keim.
+\bibitem[\protect\citename{Rohrdantz \bgroup et al.\egroup }2010]{RMB+10}
+Christian Rohrdantz, Thompsonas Mayer, Miriam Butt, Frans Plank, and Daniel~A.
+  Keim.
+\newblock 2010.
+\newblock {Comparative visual analysis of cross-linguistic featuretures}.
+\newblock In Joern Kohlhammer and Daniel~A. Keim, editors, {\em Proceedings of
+  the International Symposium on Visual Analytics Science and Technology
+  (EuroVAST 2010). The DEFINITIVE VERSION is available at diglib.eg.org.},
+  pages 27--32.
+
+\bibitem[\protect\citename{Rohrdantz \bgroup et al.\egroup
+  }2012]{Rohrdantz:2012}
+Christian Rohrdantz, Michael Hund, Thomas Mayer, Bernhard W\"alchli, and
+  Daniel~A. Keim.
+\newblock 2012.
 \newblock The world's languages explorer: Visual analysis of language features
   in genealogical and areal contexts.
-\newblock {\em Comp. Graph. Forum}, 31(3pt1):935--944, June 2012.
+\newblock {\em Comp. Graph. Forum}, 31(3pt1):935--944, June.
 
-\bibitem{RMB+10}
-C.~Rohrdantz, T.~Mayer, M.~Butt, F.~Plank, and D.~A. Keim.
-\newblock {Comparative visual analysis of cross-linguistic featuretures}.
-\newblock In J.~Kohlhammer and D.~A. Keim, editors, {\em Proceedings of the
-  International Symposium on Visual Analytics Science and Technology (EuroVAST
-  2010). The DEFINITIVE VERSION is available at diglib.eg.org.}, pages 27--32,
-  2010.
-
-\bibitem{theron}
+\bibitem[\protect\citename{Ther\'on \bgroup et al.\egroup }2011]{theron}
 R.~Ther\'on, L.~Fontanillo, A.~Esteban, and C.~Seguín.
+\newblock 2011.
 \newblock Visual analytics: A novel approach in corpus linguistics and the
   nuevo diccionario hist\'orico del espa\~nol.
-\newblock In {\em III Congreso Internacional de Lingüística de Corpusi}, 2011.
+\newblock In {\em III Congreso Internacional de Lingüística de Corpusi}.
 
-\bibitem{Villazon_2011}
-B.~Villaz\'{o}n-Terrazas, L.~Vilches-Bl\'{a}zquez, O.~Corcho, and
-  A.~G\'{o}mez-P\'{e}rez.
+\bibitem[\protect\citename{Villaz\'{o}n-Terrazas \bgroup et al.\egroup
+  }2011]{Villazon_2011}
+Boris Villaz\'{o}n-Terrazas, Luis Vilches-Bl\'{a}zquez, Oscar Corcho, and
+  Asunci\'{o}n G\'{o}mez-P\'{e}rez.
+\newblock 2011.
 \newblock {Methodological Guidelines for Publishing Government Linked Data
   Linking Government Data}.
-\newblock In D.~Wood, editor, {\em {Linking Government Data}}, chapter~2, pages
-  27--49. Springer New York, New York, NY, 2011.
+\newblock In David Wood, editor, {\em {Linking Government Data}}, chapter~2,
+  pages 27--49. Springer New York, New York, NY.
 
-\bibitem{10.1371/journal.pone.0023613}
-M.~Wieling, J.~Nerbonne, and R.~H. Baayen.
+\bibitem[\protect\citename{Wieling \bgroup et al.\egroup
+  }2011]{10.1371/journal.pone.0023613}
+Martijn Wieling, John Nerbonne, and R.~Harald Baayen.
+\newblock 2011.
 \newblock Quantitative social dialectology: Explaining linguistic variation
   geographically and socially.
-\newblock {\em PLoS ONE}, 6(9):e23613, 09 2011.
+\newblock {\em PLoS ONE}, 6(9):e23613, 09.
 
 \end{thebibliography}
